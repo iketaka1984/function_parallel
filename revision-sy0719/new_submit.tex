@@ -81,7 +81,7 @@ Furo-cho, Chikusa-ward, Nagoya-city, 464-8601}
 呼出し，関数呼出しを含むように拡張した．Hoey らの手法に従って変
 数のスコープを扱うために，各ブロックに名前を付け，参照情報をパスとし
 て表し，局所変数を実現する．本研究で新たに提案する方法として抽象命令
-生成時に作成する並列ブロックの開始及び終了番地を記録したテーブルを用
+生成時に作成する並列ブロックの開始および終了番地を記録したテーブルを用
 いて並列ブロックを起動することにより順方向，逆方向ともに並列の入れ子
 構造を実現する．これらの実現手法によって，ブロック構造を持つプログラ
 ミング言語に対して単純な抽象機械の実行メカニズムによって逆方向実行が
@@ -1483,7 +1483,7 @@ multiprocessingモジュールのprocess関数を用いて生成する．この�
 モードの% syuen 210720
 バイトコードと\figref{fig:value}，\figref{fig:label}の
 逆方向%
-モード% syuen 210720
+モードの% syuen 210720
 実行に必要な情報を用いて順方向%
 モード% syuen 210720
 の実行を逆方向に辿る．\figref{fig:value}と
@@ -1670,7 +1670,7 @@ Hoeyらは，本発表と同様な並列プログラミング言語を可逆的�
 \end{figure}
 
 \figref{fig:Hannotated}を実行すると\figref{fig:Hexec}のようにプログラム
-自体にAnnotation及びパスが書き込まれる．\figref{fig:Hexec}は2回目の手続
+自体にAnnotationおよびパスが書き込まれる．\figref{fig:Hexec}は2回目の手続
 き呼び出しのブロック自体をコピーしてAnnotationとパスを書き込んでいる．
 ここで変数\texttt{T}が\texttt{var}ステートメントで宣言されているが，この変数は
 $\clabel{1}:\clabel{2}:\blabel{2}\ast\blabel{1}$の\texttt{T}として扱われる．
@@ -1702,7 +1702,7 @@ $\clabel{1}:\clabel{2}:\blabel{2}\ast\blabel{1}$の\texttt{T}として扱われ�
 \end{figure}
 
 
-%実行されたパス及びAnnotationに逆向き実行に必要な情報が残されており実行さ
+%実行されたパスおよびAnnotationに逆向き実行に必要な情報が残されており実行さ
 %れたAnnotated Programから変換されたInverted Programを実行することで
 %Annotated Programの実行を逆順に辿る実行を行う．
 
