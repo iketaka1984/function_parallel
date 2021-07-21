@@ -1,0 +1,28 @@
+# Fdb version 3
+["dvipdf"] 1626875374 "out/answer-210720.dvi" "out/answer-210720.pdf" "out/answer-210720" 1626875407
+  "out/answer-210720.dvi" 1626875374 20944 24cd72b160279435261a48df3cb80cf7 "latex"
+  (generated)
+  "out/answer-210720.pdf"
+["latex"] 1626875374 "/Users/yuen/Documents/GitHub/function_parallel/revision-sy0719/answer-210720.tex" "out/answer-210720.dvi" "answer-210720" 1626875407
+  "/Users/yuen/Documents/GitHub/function_parallel/revision-sy0719/answer-210720.tex" 1626875373 14795 258fe9e3599e82563b01f1414b613c6b ""
+  "/usr/local/texlive/2021/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
+  "/usr/local/texlive/2021/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1136768653 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
+  "/usr/local/texlive/2021/texmf-dist/fonts/tfm/ptex-fonts/standard/goth10.tfm" 1463434352 1196 5981e79c37b2cfd27b3612a6783cd4b6 ""
+  "/usr/local/texlive/2021/texmf-dist/fonts/tfm/ptex-fonts/standard/tgoth10.tfm" 1463434352 856 7404843a5f798859944d7973a47821d5 ""
+  "/usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
+  "/usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
+  "/usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmr12.tfm" 1136768653 1288 655e228510b4c2a1abe905c368440826 ""
+  "/usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmss10.tfm" 1136768653 1316 b636689f1933f24d1294acdf6041daaa ""
+  "/usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmss8.tfm" 1136768653 1296 d77f431d10d47c8ea2cc18cf45346274 ""
+  "/usr/local/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-dvips.def" 1616101731 33684 1ea177219ce380b3f1b75a786a0b24e7 ""
+  "/usr/local/texlive/2021/texmf-dist/tex/platex/base/jarticle.cls" 1601501154 25873 fd34d08164a3ea7afd6bc7fe99629a3d ""
+  "/usr/local/texlive/2021/texmf-dist/tex/platex/base/jsize10.clo" 1601501154 8603 0e3b68ad462d501024c2959e1acaa910 ""
+  "/usr/local/texlive/2021/texmf-dist/web2c/texmf.cnf" 1616443989 39972 3d6bb4d9d719e93193fa020b58adf5d4 ""
+  "/usr/local/texlive/2021/texmf-var/web2c/eptex/platex.fmt" 1624285755 2717276 596afd763556689381336b3d0d6690b2 ""
+  "/usr/local/texlive/2021/texmf.cnf" 1616695596 577 4c1911a7228e554c6032256d3cf5567d ""
+  "answer-210720.tex" 1626875373 14795 258fe9e3599e82563b01f1414b613c6b ""
+  "out/answer-210720.aux" 1626875374 32 2d1df76398b3c48c6419a45a7331db2d "latex"
+  (generated)
+  "out/answer-210720.aux"
+  "out/answer-210720.log"
+  "out/answer-210720.dvi"
