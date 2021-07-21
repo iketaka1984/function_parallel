@@ -1,0 +1,99 @@
+\begin{thebibliography}{10}
+
+\bibitem{DBLP:journals/software/AgrawalDS91}
+Agrawal, H., DeMillo, R.~A. and Spafford, E.~H.: An Execution-Backtracking
+  Approach to Debugging, {\em {IEEE} Softw.},  Vol.~8, No.~3, pp.\ 21--26
+  (1991).
+
+\bibitem{DBLP:conf/csr/AxelsenGY07}
+Axelsen, H.~B., Gl{\"{u}}ck, R. and Yokoyama, T.: Reversible Machine Code and
+  Its Abstract Processor Architecture, {\em Computer Science - Theory and
+  Applications, Second International Symposium on Computer Science in Russia,
+  {CSR} 2007, Ekaterinburg, Russia, September 3-7, 2007, Proceedings}, Lecture
+  Notes in Computer Science, Vol.~4649, Springer, pp.\ 56--69 (2007).
+
+\bibitem{DBLP:conf/rc/Galindo0ST20}
+Galindo, C., Nishida, N., Silva, J. and Tamarit, S.: ReverCSP: Time-Travelling
+  in {CSP} Computations, {\em Reversible Computation - 12th International
+  Conference, {RC} 2020, Oslo, Norway, July 9-10, 2020, Proceedings}, Lecture
+  Notes in Computer Science, Vol.~12227, Springer, pp.\ 239--245 (2020).
+
+\bibitem{GDB}
+{GNU Project}: {\sf GDB}: The {GNU} Project Debugger,
+  \url{https://www.gnu.org/software/gdb/}.
+
+\bibitem{Hoey20PHD}
+Hoey, J.: Reversing an imparative concurrent programming language, PhD Thesis,
+  University of Leicester (2020).
+
+\bibitem{DBLP:conf/rc/HoeyU19}
+Hoey, J. and Ulidowski, I.: Reversible Imperative Parallel Programs and
+  Debugging, {\em Reversible Computation - 11th International Conference, {RC}
+  2019, Lausanne, Switzerland, June 24-25, 2019, Proceedings}, Lecture Notes in
+  Computer Science, Vol.~11497, Springer, pp.\ 108--127 (2019).
+
+\bibitem{DBLP:journals/corr/abs-1709-00828}
+Hoey, J., Ulidowski, I. and Yuen, S.: Reversing Imperative Parallel Programs,
+  {\em Proceedings Combined 24th International Workshop on Expressiveness in
+  Concurrency and 14th Workshop on Structural Operational Semantics,
+  {EXPRESS/SOS} 2017, Berlin, Germany, 4th September 2017}, {EPTCS}, Vol.~255,
+  pp.\ 51--66 (2017).
+
+\bibitem{DBLP:journals/corr/abs-1808-08651}
+Hoey, J., Ulidowski, I. and Yuen, S.: Reversing Parallel Programs with Blocks
+  and Procedures, {\em Proceedings Combined 25th International Workshop on
+  Expressiveness in Concurrency and 15th Workshop on Structural Operational
+  Semantics, {EXPRESS/SOS} 2018, Beijing, China, September 3, 2018}, {EPTCS},
+  Vol.~276, pp.\ 69--86 (2018).
+
+\bibitem{DBLP:conf/rc/IkedaY20}
+Ikeda, T. and Yuen, S.: A Reversible Runtime Environment for Parallel Programs,
+  {\em Reversible Computation - 12th International Conference, {RC} 2020, Oslo,
+  Norway, July 9-10, 2020, Proceedings}, Lecture Notes in Computer Science,
+  Vol.~12227, Springer, pp.\ 272--279 (2020).
+
+\bibitem{DBLP:conf/flops/Lanese0PV18}
+Lanese, I., Nishida, N., Palacios, A. and Vidal, G.: CauDEr: {A}
+  Causal-Consistent Reversible Debugger for Erlang, {\em Functional and Logic
+  Programming - 14th International Symposium, {FLOPS} 2018, Nagoya, Japan, May
+  9-11, 2018, Proceedings}, Lecture Notes in Computer Science, Vol.~10818,
+  Springer, pp.\ 247--263 (2018).
+
+\bibitem{DBLP:journals/jlp/LaneseNPV18}
+Lanese, I., Nishida, N., Palacios, A. and Vidal, G.: A theory of reversibility
+  for Erlang, {\em J. Log. Algebraic Methods Program.},  Vol.~100, pp.\ 71--97
+  (2018).
+
+\bibitem{DBLP:conf/forte/LanesePV19}
+Lanese, I., Palacios, A. and Vidal, G.: Causal-Consistent Replay Debugging for
+  Message Passing Programs, {\em Formal Techniques for Distributed Objects,
+  Components, and Systems - 39th {IFIP} {WG} 6.1 International Conference,
+  {FORTE} 2019, Held as Part of the 14th International Federated Conference on
+  Distributed Computing Techniques, DisCoTec 2019, Kongens Lyngby, Denmark,
+  June 17-21, 2019, Proceedings}, Lecture Notes in Computer Science,
+  Vol.~11535, Springer, pp.\ 167--184 (2019).
+
+\bibitem{DBLP:conf/forte/LienhardtLMS12}
+Lienhardt, M., Lanese, I., Mezzina, C.~A. and Stefani, J.: A Reversible
+  Abstract Machine and Its Space Overhead, {\em Formal Techniques for
+  Distributed Systems - Joint 14th {IFIP} {WG} 6.1 International Conference,
+  {FMOODS} 2012 and 32nd {IFIP} {WG} 6.1 International Conference, {FORTE}
+  2012, Stockholm, Sweden, June 13-16, 2012. Proceedings}, Lecture Notes in
+  Computer Science, Vol.~7273, Springer, pp.\ 1--17 (2012).
+
+\bibitem{DBLP:conf/ifl/ThomsenA15}
+Thomsen, M.~K. and Axelsen, H.~B.: Interpretation and programming of the
+  reversible functional language {RFUN}, {\em Proceedings of the 27th Symposium
+  on the Implementation and Application of Functional Programming Languages,
+  {IFL} '15, Koblenz, Germany, September 14-16, 2015}, {ACM}, pp.\ 8:1--8:13
+  (2015).
+
+\bibitem{UNDODebugger}
+{UNDO}: {\sf UDB} - debugger for C/C++,
+  \url{https://undo.io/solutions/products/udb/}.
+
+\bibitem{DBLP:journals/entcs/Yokoyama10}
+Yokoyama, T.: Reversible Computation and Reversible Programming Languages, {\em
+  Electron. Notes Theor. Comput. Sci.},  Vol.~253, No.~6, pp.\ 71--81 (2010).
+
+\end{thebibliography}
