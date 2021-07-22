@@ -1,10 +1,10 @@
-This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.euc) (TeX Live 2021) (preloaded format=platex 2021.6.21)  21 JUL 2021 22:56
+This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.euc) (TeX Live 2021) (preloaded format=platex 2021.6.21)  22 JUL 2021 20:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/yuen/Documents/GitHub/function_parallel/revision-sy0719/new_submit.tex
-(/Users/yuen/Documents/GitHub/function_parallel/revision-sy0719/new_submit.tex
+**/Users/yuen/Documents/GitHub/function_parallel/revision-0721/new_submit.tex
+(/Users/yuen/Documents/GitHub/function_parallel/revision-0721/new_submit.tex
 pLaTeX2e <2020-10-01>+2 (based on LaTeX2e <2020-10-01> patch level 4)
 L3 programming layer <2021-02-18> (./ipsj.cls
 Document Class: ipsj 2018/08/03 v4.0 IPSJ class
@@ -3131,73 +3131,70 @@ LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <8.8711> not available
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <8.8711> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 64.
 LaTeX Font Info:    Font shape `JT1/mc/m/it' in size <8.5373> not available
-(Font)              Font shape `JT1/mc/m/n' tried instead on input line 97.
+(Font)              Font shape `JT1/mc/m/n' tried instead on input line 94.
 LaTeX Font Info:    Font shape `JY1/mc/m/it' in size <8.5373> not available
-(Font)              Font shape `JY1/mc/m/n' tried instead on input line 97.
+(Font)              Font shape `JY1/mc/m/n' tried instead on input line 94.
 LaTeX Font Info:    Font shape `JT1/mc/bx/it' in size <8.5373> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 97.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 94.
 LaTeX Font Info:    Font shape `JY1/mc/bx/it' in size <8.5373> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 97.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 94.
 
-Underfull \hbox (badness 5622) in paragraph at lines 130--132
+Underfull \hbox (badness 5622) in paragraph at lines 124--126
 \OT1/cmr/bx/it/8.5373 Keywords: \OT1/cmr/m/n/8.5373 Re-versible com-pu-ta-tion, Con-cur-rency, Pro-gram-ming Lan-guages, Re-versible runtime-
  []
 
 LaTeX Font Info:    Font shape `JT1/gt/bx/n' in size <19.2207> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 134.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 128.
 LaTeX Font Info:    Font shape `JY1/gt/bx/n' in size <19.2207> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 134.
-LaTeX Font Info:    Calculating math sizes for size <9.61035> on input line 134.
-LaTeX Font Info:    Calculating math sizes for size <11.82813> on input line 134.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 128.
+LaTeX Font Info:    Calculating math sizes for size <9.61035> on input line 128.
+LaTeX Font Info:    Calculating math sizes for size <11.82813> on input line 128.
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <14.22882> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 134.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 128.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <14.22882> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 134.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 128.
 LaTeX Font Info:    Font shape `JT1/mc/m/sc' in size <10.34961> not available
-(Font)              Font shape `JT1/mc/m/n' tried instead on input line 134.
+(Font)              Font shape `JT1/mc/m/n' tried instead on input line 128.
 LaTeX Font Info:    Font shape `JY1/mc/m/sc' in size <10.34961> not available
-(Font)              Font shape `JY1/mc/m/n' tried instead on input line 134.
-LaTeX Font Info:    Calculating math sizes for size <10.34961> on input line 134.
+(Font)              Font shape `JY1/mc/m/n' tried instead on input line 128.
+LaTeX Font Info:    Calculating math sizes for size <10.34961> on input line 128.
 LaTeX Font Info:    Font shape `JT1/mc/m/sc' in size <7.24469> not available
-(Font)              Font shape `JT1/mc/m/n' tried instead on input line 134.
+(Font)              Font shape `JT1/mc/m/n' tried instead on input line 128.
 LaTeX Font Info:    Font shape `JY1/mc/m/sc' in size <7.24469> not available
-(Font)              Font shape `JY1/mc/m/n' tried instead on input line 134.
+(Font)              Font shape `JY1/mc/m/n' tried instead on input line 128.
 
 LaTeX Warning: Optional argument of \twocolumn too tall on page 1.
-
-
-LaTeX Warning: Text page 1 contains only floats.
 
 [1
 
 
 ]
-LaTeX Font Info:    Calculating math sizes for size <8.13184> on input line 134.
+LaTeX Font Info:    Calculating math sizes for size <8.13184> on input line 128.
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <11.82813> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 137.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 131.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <11.82813> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 137.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 131.
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <9.61035> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 220.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 205.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <9.61035> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 220.
-LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 244.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 205.
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 229.
 (/usr/local/texlive/2021/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <8.13184> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 244.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 229.
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <8.13184> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 247.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 232.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <8.13184> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 247.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 232.
 [2]
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <9.61035> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 268.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 253.
 File: ./abstract.eps Graphic file (type eps)
 <./abstract.eps>
 
-Overfull \hbox (15.9614pt too wide) in paragraph at lines 355--356
+Overfull \hbox (15.9614pt too wide) in paragraph at lines 340--341
 [][] 
  []
 
@@ -3207,7 +3204,7 @@ File: ./parallelTable_1-r1.eps Graphic file (type eps)
 File: ./parallel.eps Graphic file (type eps)
 <./parallel.eps>
 
-Overfull \hbox (15.9614pt too wide) in paragraph at lines 499--500
+Overfull \hbox (15.9614pt too wide) in paragraph at lines 473--474
 [][] 
  []
 
@@ -3215,7 +3212,7 @@ Overfull \hbox (15.9614pt too wide) in paragraph at lines 499--500
 File: jmp.eps Graphic file (type eps)
 <jmp.eps>
 
-Overfull \hbox (15.9614pt too wide) in paragraph at lines 671--672
+Overfull \hbox (15.9614pt too wide) in paragraph at lines 623--624
 [][] 
  []
 
@@ -3224,27 +3221,27 @@ File: ./while-flow.eps Graphic file (type eps)
 File: ./store.eps Graphic file (type eps)
 <./store.eps>
 
-Overfull \hbox (15.9614pt too wide) in paragraph at lines 714--715
+Overfull \hbox (15.9614pt too wide) in paragraph at lines 666--667
 [][] 
  []
 
 File: ./proc-flow.eps Graphic file (type eps)
 <./proc-flow.eps>
 [6]
-Overfull \hbox (13.57593pt too wide) in paragraph at lines 845--850
+Overfull \hbox (13.57593pt too wide) in paragraph at lines 784--789
 [] $\OT1/cmr/m/n/9.61035 (\OML/cmm/m/it/9.61035 P \OT1/cmr/m/n/9.61035 + 1\OML/cmm/m/it/9.61035 ; P; w; ^^N; ^^_; ^^Z \OMS/cmsy/m/n/9.61035 ^^A \OT1/cmr/m/n/9.61035 (\OML/cmm/m/it/9.61035 p; ^^N; lup\OT1/cmr/m/n/9.61035 (\OML/cmm/m/it/9.61035 ^^[; ^^N; x\OT1/cmr/m/n/9.61035 ))\OML/cmm/m/it/9.61035 ; ^^X; sto\OT1/cmr/m/n/9.61035 (\OML/cmm/m/it/9.61035 ^^[; x; ^^N; n\OT1/cmr/m/n/9.61035 ))$ 
  []
 
-[7] <xymatrix 2x1 44> <xymatrix 2x1 44> <xymatrix 2x1 44> <xymatrix 2x1 44> <xymatrix 2x1 44> <xymatrix 2x1 44> [8] <xymatrix 2x1 44> <xymatrix 2x1 44> <xymatrix 2x1 44> <xymatrix 2x1 44> [9] [10]
+[7] <xymatrix 2x1 44> <xymatrix 2x1 44> <xymatrix 2x1 44> <xymatrix 2x1 44> <xymatrix 2x1 44> [8] <xymatrix 2x1 44> <xymatrix 2x1 44> <xymatrix 2x1 44> <xymatrix 2x1 44> <xymatrix 2x1 44> [9] [10]
 
 LaTeX Warning: Text page 11 contains only floats.
 
-[11]
-Overfull \hbox (14.88008pt too wide) in paragraph at lines 1585--1640
+[11] [12]
+Overfull \hbox (14.88008pt too wide) in paragraph at lines 1466--1521
  [][][] 
  []
 
-[12] [13] (./new_submit.bbl
+[13] (./new_submit.bbl
 LaTeX Font Info:    Calculating math sizes for size <8.8711> on input line 1.
 LaTeX Font Info:    Kanji font shape `JY1/gt/m/it' undefined
 (Font)              No change on input line 5.
@@ -3273,14 +3270,19 @@ LaTeX Font Info:    Kanji font shape `JY1/gt/m/it' undefined
 (Font)              No change on input line 86.
 LaTeX Font Info:    Kanji font shape `JY1/gt/m/it' undefined
 (Font)              No change on input line 96.
-) [15] (out/new_submit.aux) ) 
+)
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <11.08887> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 1716.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <11.08887> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 1716.
+[15] (out/new_submit.aux) ) 
 Here is how much of TeX's memory you used:
- 5035 strings out of 479466
- 67255 string characters out of 5870548
- 434559 words of memory out of 5000000
- 22637 multiletter control sequences out of 15000+600000
- 447979 words of font info for 229 fonts, out of 8000000 for 9000
+ 5047 strings out of 479466
+ 67418 string characters out of 5870548
+ 435544 words of memory out of 5000000
+ 22647 multiletter control sequences out of 15000+600000
+ 449149 words of font info for 235 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 68i,16n,74p,613b,583s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 68i,16n,74p,627b,583s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on out/new_submit.dvi (15 pages, 127660 bytes).
+Output written on out/new_submit.dvi (15 pages, 127616 bytes).
