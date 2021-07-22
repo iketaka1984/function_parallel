@@ -62,7 +62,8 @@ Furo-cho, Chikusa-ward, Nagoya-city, 464-8601}
 
 
 \begin{abstract}
-本発表では，並列に実行されるブロック構造を持つプログラムの実行を解
+本論文% 210722 syuen
+では，並列に実行されるブロック構造を持つプログラムの実行を解
 析することを目的とした可逆実行環境を示す．並列プログラムを抽象
 機械のバイトコード列に変換して実行する．順方向の実行時は逆向き実行に必
 要な情報をスタックに保存し，その実行を逆向きに辿る実行環境を実装す
@@ -77,7 +78,8 @@ Furo-cho, Chikusa-ward, Nagoya-city, 464-8601}
 並行実行する実行環境をPython のmultiprocessing モジュー
 ルによって実現した．
 
-本発表では，実際的なプログラムの構文要素として，ブロック構造，手続き
+本論文% 210722 syuen
+では，実際的なプログラムの構文要素として，ブロック構造，手続き
 呼出し，関数呼出しを含むように拡張した．Hoey らの手法に従って変
 数のスコープを扱うために，各ブロックに名前を付け，参照情報をパスとし
 て表し，局所変数を実現する．本研究で新たに提案する方法として抽象命令
@@ -114,7 +116,8 @@ executes multiple abstract machines %
 in the forward and backword modes %
 using the multiprocessing module of Python.
 
-This work extends the runtime for practical language features,
+This paper % 210722 syuen
+extends the runtime for practical language features,
 including blocks, procedure-call, and function-call. To deal with the
 scope of variables in blocks, we assign the path information with
 block names following Hoey et.al.  Besides variable paths, the runtime

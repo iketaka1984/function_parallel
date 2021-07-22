@@ -1,16 +1,16 @@
 # Fdb version 3
-["bibtex new_submit"] 1626873155 "new_submit.aux" "new_submit.bbl" "new_submit" 1626875925
+["bibtex new_submit"] 1626873155 "new_submit.aux" "new_submit.bbl" "new_submit" 1626965336
   "./ipsjsort.bst" 1626872980 25930 d27669b348c8e9a5c1cc93168b2b5e89 ""
-  "new_submit.aux" 1626875922 6020 229c81faa6086a965cb7d4855151fab0 "latex"
+  "new_submit.aux" 1626965333 6020 229c81faa6086a965cb7d4855151fab0 "latex"
   "pro2106.bib" 1626872980 7387 9641ed1625007eeda0e3d66a7cef4934 ""
   (generated)
-  "new_submit.bbl"
   "new_submit.blg"
-["dvipdf"] 1626875922 "new_submit.dvi" "new_submit.pdf" "new_submit" 1626875925
-  "new_submit.dvi" 1626875922 127660 0b3830b46194df82d9aafbf404fd2716 "latex"
+  "new_submit.bbl"
+["dvipdf"] 1626965334 "new_submit.dvi" "new_submit.pdf" "new_submit" 1626965336
+  "new_submit.dvi" 1626965333 128940 0e470351f8254c9e8be0dab6656315bd "latex"
   (generated)
   "new_submit.pdf"
-["latex"] 1626875921 "new_submit.tex" "new_submit.dvi" "new_submit" 1626875925
+["latex"] 1626965333 "new_submit.tex" "new_submit.dvi" "new_submit" 1626965336
   "/usr/local/texlive/2021/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/ptex-fonts/jis/jis.tfm" 1463434352 468 53f854284f6afa6c36aaa2d1090ecc12 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/ptex-fonts/jis/jisg.tfm" 1463434352 468 53f854284f6afa6c36aaa2d1090ecc12 ""
@@ -124,15 +124,15 @@
   "abstract.eps" 1626872980 7739393 042f305dc851ddf63375631c9d5e938c ""
   "ipsj.cls" 1626872980 142123 a913fa6ef20099c2a9e7fc1a97a1415b ""
   "jmp.eps" 1626872980 574123 f916df4f31b2bd5e6ab5f3b2e19bdb2d ""
-  "new_submit.aux" 1626875922 6020 229c81faa6086a965cb7d4855151fab0 "latex"
+  "new_submit.aux" 1626965333 6020 229c81faa6086a965cb7d4855151fab0 "latex"
   "new_submit.bbl" 1626873156 4910 c15008e86bfe6ffdfe232a795d40eb78 "bibtex new_submit"
-  "new_submit.tex" 1626875771 96025 7eaa6f9d49442025f2c59fe561560132 ""
+  "new_submit.tex" 1626965280 96798 496209741f2d551b56a4953b591fb2bf ""
   "parallel.eps" 1626872980 1398824 f8c25b4d500df1ab6f842658267ec79f ""
   "parallelTable_1-r1.eps" 1626872980 418584 284ead48a7db6359c69bfa519cd36b58 ""
   "proc-flow.eps" 1626872980 226545 6fd07d3e9e0281924c3488ec9de963d1 ""
   "store.eps" 1626872980 384007 88725b023f9b811f4e3dfd1c55cfafa7 ""
   "while-flow.eps" 1626872980 222917 522129c34e4ed99137d1732422bd229f ""
   (generated)
-  "new_submit.dvi"
   "new_submit.log"
+  "new_submit.dvi"
   "new_submit.aux"
