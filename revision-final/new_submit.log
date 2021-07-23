@@ -1,9 +1,8 @@
-This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.euc) (TeX Live 2021) (preloaded format=platex 2021.6.21)  23 JUL 2021 00:16
+This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.euc) (TeX Live 2021) (preloaded format=platex 2021.6.21)  23 JUL 2021 15:05
 entering extended mode
  restricted \write18 enabled.
- file:line:error style messages enabled.
  %&-line parsing enabled.
-**new_submit.tex
+**new_submit
 (./new_submit.tex
 pLaTeX2e <2020-10-01>+2 (based on LaTeX2e <2020-10-01> patch level 4)
 L3 programming layer <2021-02-18> (./ipsj.cls
@@ -4441,9 +4440,9 @@ LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <11.82813> not available
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <11.82813> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 140.
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <9.61035> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 223.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 227.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <9.61035> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 223.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 227.
 LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 2
 47.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/base/omscmr.fd
@@ -4457,11 +4456,11 @@ LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <8.13184> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 250.
  [2]
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <9.61035> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 271.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 274.
 File: ./abstract.eps Graphic file (type eps)
 <./abstract.eps>
 
-Overfull \hbox (15.9614pt too wide) in paragraph at lines 358--359
+Overfull \hbox (15.9614pt too wide) in paragraph at lines 361--362
 [][] 
  []
 
@@ -4471,7 +4470,7 @@ File: ./parallelTable_1-r1.eps Graphic file (type eps)
 File: ./parallel.eps Graphic file (type eps)
 <./parallel.eps>
 
-Overfull \hbox (15.9614pt too wide) in paragraph at lines 502--503
+Overfull \hbox (15.9614pt too wide) in paragraph at lines 500--501
 [][] 
  []
 
@@ -4479,7 +4478,7 @@ Overfull \hbox (15.9614pt too wide) in paragraph at lines 502--503
 File: jmp.eps Graphic file (type eps)
 <jmp.eps>
 
-Overfull \hbox (15.9614pt too wide) in paragraph at lines 674--675
+Overfull \hbox (15.9614pt too wide) in paragraph at lines 672--673
 [][] 
  []
 
@@ -4488,14 +4487,14 @@ File: ./while-flow.eps Graphic file (type eps)
 File: ./store.eps Graphic file (type eps)
 <./store.eps>
 
-Overfull \hbox (15.9614pt too wide) in paragraph at lines 717--718
+Overfull \hbox (15.9614pt too wide) in paragraph at lines 715--716
 [][] 
  []
 
 File: ./proc-flow.eps Graphic file (type eps)
 <./proc-flow.eps>
 [6]
-Overfull \hbox (13.57593pt too wide) in paragraph at lines 848--853
+Overfull \hbox (13.57593pt too wide) in paragraph at lines 846--851
 [] $\OT1/cmr/m/n/9.61035 (\OML/cmm/m/it/9.61035 P \OT1/cmr/m/n/9.61035 + 1\OML/
 cmm/m/it/9.61035 ; P; w; ^^N; ^^_; ^^Z \OMS/cmsy/m/n/9.61035 ^^A \OT1/cmr/m/n/9
 .61035 (\OML/cmm/m/it/9.61035 p; ^^N; lup\OT1/cmr/m/n/9.61035 (\OML/cmm/m/it/9.
@@ -4510,7 +4509,7 @@ r/m/n/9.61035 (\OML/cmm/m/it/9.61035 ^^[; x; ^^N; n\OT1/cmr/m/n/9.61035 ))$
 LaTeX Warning: Text page 11 contains only floats.
 
 [11]
-Overfull \hbox (14.88008pt too wide) in paragraph at lines 1588--1643
+Overfull \hbox (14.88008pt too wide) in paragraph at lines 1593--1648
  [][][] 
  []
 
@@ -4545,17 +4544,17 @@ LaTeX Font Info:    Kanji font shape `JY1/gt/m/it' undefined
 (Font)              No change on input line 96.
 )
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <11.08887> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 1853.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 1861.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <11.08887> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 1853.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 1861.
  [15] (./new_submit.aux) ) 
 Here is how much of TeX's memory you used:
- 5045 strings out of 479466
- 67213 string characters out of 5870548
+ 5053 strings out of 479466
+ 67368 string characters out of 5870548
  434559 words of memory out of 5000000
- 22647 multiletter control sequences out of 15000+600000
- 449149 words of font info for 235 fonts, out of 8000000 for 9000
+ 22655 multiletter control sequences out of 15000+600000
+ 450438 words of font info for 243 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 68i,16n,74p,550b,583s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 68i,16n,74p,357b,583s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on new_submit.dvi (15 pages, 128972 bytes).
+Output written on new_submit.dvi (15 pages, 129232 bytes).
