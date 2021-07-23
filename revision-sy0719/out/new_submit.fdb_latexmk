@@ -1,16 +1,16 @@
 # Fdb version 3
-["bibtex new_submit"] 0 "new_submit.aux" "new_submit.bbl" "new_submit" 1626965285
+["bibtex new_submit"] 0 "new_submit.aux" "new_submit.bbl" "new_submit" 1627041542
   "./ipsjsort.bst" 1626872980 25930 d27669b348c8e9a5c1cc93168b2b5e89 ""
-  "new_submit.aux" 1626964948 6020 229c81faa6086a965cb7d4855151fab0 ""
+  "new_submit.aux" 1626965333 6020 229c81faa6086a965cb7d4855151fab0 ""
   "pro2106.bib" 1626872980 7387 9641ed1625007eeda0e3d66a7cef4934 ""
   (generated)
-  "new_submit.blg"
   "new_submit.bbl"
-["dvipdf"] 1626965282 "out/new_submit.dvi" "out/new_submit.pdf" "out/new_submit" 1626965285
+  "new_submit.blg"
+["dvipdf"] 1626965282 "out/new_submit.dvi" "out/new_submit.pdf" "out/new_submit" 1627041542
   "out/new_submit.dvi" 1626965282 128940 0e470351f8254c9e8be0dab6656315bd "latex"
   (generated)
   "out/new_submit.pdf"
-["latex"] 1626965281 "/Users/yuen/Documents/GitHub/function_parallel/revision-sy0719/new_submit.tex" "out/new_submit.dvi" "new_submit" 1626965285
+["latex"] 1626965281 "/Users/yuen/Documents/GitHub/function_parallel/revision-sy0719/new_submit.tex" "out/new_submit.dvi" "new_submit" 1627041542
   "/Users/yuen/Documents/GitHub/function_parallel/revision-sy0719/new_submit.tex" 1626965280 96798 496209741f2d551b56a4953b591fb2bf ""
   "/usr/local/texlive/2021/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/ptex-fonts/jis/jis.tfm" 1463434352 468 53f854284f6afa6c36aaa2d1090ecc12 ""
@@ -135,5 +135,5 @@
   "while-flow.eps" 1626872980 222917 522129c34e4ed99137d1732422bd229f ""
   (generated)
   "out/new_submit.log"
-  "out/new_submit.aux"
   "out/new_submit.dvi"
+  "out/new_submit.aux"

@@ -1,17 +1,17 @@
 # Fdb version 3
-["bibtex new_submit"] 1626945618 "new_submit.aux" "new_submit.bbl" "new_submit" 1626952044
+["bibtex new_submit"] 1627041593 "new_submit.aux" "new_submit.bbl" "new_submit" 1627041598
   "./ipsjsort.bst" 1626945535 24572 c46c9614660b8637c60b25daba6b51d6 ""
-  "new_submit.aux" 1626945535 6020 229c81faa6086a965cb7d4855151fab0 ""
+  "new_submit.aux" 1626961232 5936 62d83f709e4170d6f1467912c4d4cc9b ""
   "pro2106.bib" 1626945535 7187 9162a1040e9ca857a184ae9c01b992de ""
   (generated)
   "new_submit.bbl"
   "new_submit.blg"
-["dvipdf"] 1626952041 "out/new_submit.dvi" "out/new_submit.pdf" "out/new_submit" 1626952044
-  "out/new_submit.dvi" 1626952040 127616 975eeb6dec6be10b7d6be9e617a35445 "latex"
+["dvipdf"] 1627041595 "out/new_submit.dvi" "out/new_submit.pdf" "out/new_submit" 1627041598
+  "out/new_submit.dvi" 1627041594 127616 8068bced77d990fd614447b29c6c393b "latex"
   (generated)
   "out/new_submit.pdf"
-["latex"] 1626952040 "/Users/yuen/Documents/GitHub/function_parallel/revision-0721/new_submit.tex" "out/new_submit.dvi" "new_submit" 1626952044
-  "/Users/yuen/Documents/GitHub/function_parallel/revision-0721/new_submit.tex" 1626952040 93159 674068a1114404f40de202214d46b36a ""
+["latex"] 1627041593 "/Users/yuen/Documents/GitHub/function_parallel/revision-0721/new_submit.tex" "out/new_submit.dvi" "new_submit" 1627041598
+  "/Users/yuen/Documents/GitHub/function_parallel/revision-0721/new_submit.tex" 1626964872 93159 734601710a49b02ece51037c72942446 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/ptex-fonts/jis/jis.tfm" 1463434352 468 53f854284f6afa6c36aaa2d1090ecc12 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/ptex-fonts/jis/jisg.tfm" 1463434352 468 53f854284f6afa6c36aaa2d1090ecc12 ""
@@ -125,15 +125,15 @@
   "abstract.eps" 1626945534 7631845 9e4e9016a095e1d701c8d77fcac8140d ""
   "ipsj.cls" 1626945535 136173 edc2b78c657ed865834831a8cbffeb3f ""
   "jmp.eps" 1626945535 566092 7978760fa44db3276cd8b32085cc5a43 ""
-  "new_submit.bbl" 1626945618 4910 c15008e86bfe6ffdfe232a795d40eb78 "bibtex new_submit"
-  "new_submit.tex" 1626952040 93159 674068a1114404f40de202214d46b36a ""
-  "out/new_submit.aux" 1626952040 5936 62d83f709e4170d6f1467912c4d4cc9b "latex"
+  "new_submit.bbl" 1627041593 4910 c15008e86bfe6ffdfe232a795d40eb78 "bibtex new_submit"
+  "new_submit.tex" 1626964872 93159 734601710a49b02ece51037c72942446 ""
+  "out/new_submit.aux" 1627041594 5936 62d83f709e4170d6f1467912c4d4cc9b "latex"
   "parallel.eps" 1626945535 1379339 253e5d958f0f2f02ccd94aa55f47bfe6 ""
   "parallelTable_1-r1.eps" 1626945535 407370 4331be2503756de8e398a5f84667d19a ""
   "proc-flow.eps" 1626945535 217079 7c329893bf2d0f6aab69dee4707ae8c9 ""
   "store.eps" 1626945535 378617 6a61e98248b05d7617ae129dcb52df0f ""
   "while-flow.eps" 1626945535 213548 8ac882e2f6243514492794d741742946 ""
   (generated)
-  "out/new_submit.log"
-  "out/new_submit.dvi"
   "out/new_submit.aux"
+  "out/new_submit.dvi"
+  "out/new_submit.log"

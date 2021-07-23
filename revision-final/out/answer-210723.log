@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.euc) (TeX Live 2021) (preloaded format=platex 2021.6.21)  23 JUL 2021 17:33
+This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.euc) (TeX Live 2021) (preloaded format=platex 2021.6.21)  23 JUL 2021 21:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -85,6 +85,6 @@ Here is how much of TeX's memory you used:
  18241 multiletter control sequences out of 15000+600000
  410224 words of font info for 54 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 44i,6n,50p,356b,242s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 44i,6n,50p,363b,242s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on out/answer-210723.dvi (6 pages, 23264 bytes).
+Output written on out/answer-210723.dvi (6 pages, 23428 bytes).

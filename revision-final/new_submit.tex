@@ -360,7 +360,7 @@ $DV$は変数の宣言，$DP$は手続きの宣言，$DF$は関数の宣言，$R
 \begin{figure}[tb]
 \includegraphics[height=4.0cm,width=9.0cm]{./abstract.eps}
 \caption{実装した可逆実行環境}
-\ecaption{implimentation of reversible runtime}
+\ecaption{Implimentation of reversible runtime}
 \label{fig:abst}
 \end{figure}
 
@@ -489,7 +489,7 @@ $T$を生成する．(\figref{fig:parallelTable}(b))
 \begin{figure}[tb]
 \includegraphics[width=.8\linewidth]{./parallelTable_1-r1.eps}
 \caption{並列ブロックテーブル}
-\ecaption{parallel block table}
+\ecaption{Parallel block table}
 \label{fig:parallelTable}
 \end{figure}
 
@@ -499,7 +499,7 @@ $T$を生成する．(\figref{fig:parallelTable}(b))
 \begin{figure}[tb]
 \includegraphics[height=6.0cm,width=9.0cm]{./parallel.eps}
 \caption{並列プロセスの生成}
-\ecaption{creating parallel process }
+\ecaption{Parallel process generation}
 \label{fig:parallel}
 \end{figure}
 
@@ -651,7 +651,7 @@ PCを演算スタックから読み出しその番地にシャンプすること
 }
 \centerline{\fbox{\box0}}
 \caption{逆方向バイトコードへの変換規則}
-\ecaption{conversion rule for backward bytecode}
+\ecaption{Conversion of bytecode to the backward mode}
 \label{fig:rulebyte}
 \end{figure}
 
@@ -671,7 +671,8 @@ PCを演算スタックから読み出しその番地にシャンプすること
 \begin{figure}[tb]
 \includegraphics[height=3.0cm,width=9.0cm]{jmp.eps}
 \caption{ジャンプ履歴の保存と利用方法}
-\ecaption{reserving and using jump history }
+%\ecaption{reserving and using jump history }
+\ecaption{Store and usage of jump history}
 \label{fig:jmp}
 \end{figure}
 
@@ -704,7 +705,7 @@ Idを持つプロセスがジャンプ履歴を取り出しその命令番地に
 \includegraphics[width=.75\linewidth]{./while-flow.eps}
 \end{center}
 \caption{whileループの反転}
-\ecaption{reversing while-loops }
+\ecaption{Reversing while-loops }
 \label{fig:whileFlow}
 \end{figure}
 
@@ -714,7 +715,7 @@ Idを持つプロセスがジャンプ履歴を取り出しその命令番地に
 \begin{figure}[tb]
 \includegraphics[height=3.0cm,width=9.0cm]{./store.eps}
 \caption{変数更新履歴の保存と利用方法}
-\ecaption{reserving and using store history }
+\ecaption{Store and usage of store update history }
 \label{fig:store}
 \end{figure}
 
@@ -749,7 +750,7 @@ Idを持つプロセスがジャンプ履歴を取り出しその命令番地に
 \includegraphics[width=.75\linewidth]{./proc-flow.eps}
 \end{center}
 \caption{手続きブロックの反転}
-\ecaption{reversing procedures }
+\ecaption{Reversing procedures }
 \label{fig:procFlow}
 \end{figure}
 
@@ -1614,7 +1615,7 @@ Hoeyらは，本発表と同様な並列プログラミング言語を可逆的�
 }
 \centerline{\fbox{\box0}}
 \caption{対象プログラム}
-\ecaption{Original Program}
+\ecaption{Original target program}
 \label{fig:Horiginal}
 \end{minipage}
 
@@ -1641,7 +1642,7 @@ Hoeyらは，本発表と同様な並列プログラミング言語を可逆的�
 }
 \centerline{\fbox{\box0}}
 \caption{Annotated プログラム}
-\ecaption{Annotated Program}
+\ecaption{Annotated program}
 \label{fig:Hannotated}
 \end{minipage}
 \end{tabular}
@@ -1672,7 +1673,7 @@ Hoeyらは，本発表と同様な並列プログラミング言語を可逆的�
 \centerline{\fbox{\box0}}
 \caption{実行されたAnnotatedプログラム\\
 （2回目の手続き呼び出し）}
-\ecaption{Executed Annotated Program\\
+\ecaption{Executed annotated program\\
  (second procedure call)}
 \label{fig:Hexec}
 \end{figure}
@@ -1704,7 +1705,7 @@ $\clabel{1}:\clabel{2}:\blabel{2}\ast\blabel{1}$の\texttt{T}として扱われ�
 \centerline{\fbox{\box0}}
 \caption{Inverted プログラム\\
 （2回目の手続き呼び出しの部分）}
-\ecaption{Inverted Program\\
+\ecaption{Inverted program\\
  (part of second procedure call)}
 \label{fig:Hinvprogram}
 \end{figure}

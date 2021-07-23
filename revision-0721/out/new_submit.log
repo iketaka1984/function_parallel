@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.euc) (TeX Live 2021) (preloaded format=platex 2021.6.21)  22 JUL 2021 20:07
+This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.euc) (TeX Live 2021) (preloaded format=platex 2021.6.21)  23 JUL 2021 20:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -3272,9 +3272,9 @@ LaTeX Font Info:    Kanji font shape `JY1/gt/m/it' undefined
 (Font)              No change on input line 96.
 )
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <11.08887> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 1716.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 1717.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <11.08887> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 1716.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 1717.
 [15] (out/new_submit.aux) ) 
 Here is how much of TeX's memory you used:
  5047 strings out of 479466
