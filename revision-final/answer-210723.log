@@ -1,9 +1,9 @@
-This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.euc) (TeX Live 2021) (preloaded format=platex 2021.6.21)  23 JUL 2021 15:17
+This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.euc) (TeX Live 2021) (preloaded format=platex 2021.6.21)  23 JUL 2021 16:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**answer-210720
-(./answer-210720.tex
+**answer-210723
+(./answer-210723.tex
 pLaTeX2e <2020-10-01>+2 (based on LaTeX2e <2020-10-01> patch level 4)
 L3 programming layer <2021-02-18>
 (/usr/local/texlive/2021/texmf-dist/tex/platex/base/jarticle.cls
@@ -40,8 +40,8 @@ File: l3backend-dvips.def 2021-03-18 L3 backend support: dvips
 \g__pdf_backend_link_int=\count190
 \g__pdf_backend_link_sf_int=\count191
 )
-(./answer-210720.aux)
-\openout1 = `answer-210720.aux'.
+(./answer-210723.aux)
+\openout1 = `answer-210723.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 2.
 LaTeX Font Info:    ... okay on input line 2.
@@ -80,7 +80,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 78.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 78.
- [2] [3] [4] [5] (./answer-210720.aux) ) 
+ [2] [3] [4] [5] [6] (./answer-210723.aux) ) 
 Here is how much of TeX's memory you used:
  468 strings out of 479466
  8030 string characters out of 5870548
@@ -90,4 +90,4 @@ Here is how much of TeX's memory you used:
  929 hyphenation exceptions out of 8191
  44i,6n,50p,290b,242s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on answer-210720.dvi (5 pages, 21020 bytes).
+Output written on answer-210723.dvi (6 pages, 23256 bytes).
