@@ -62,8 +62,7 @@ Furo-cho, Chikusa-ward, Nagoya-city, 464-8601}
 
 
 \begin{abstract}
-本論文% 210722 syuen
-では，並列に実行されるブロック構造を持つプログラムの実行を解
+本論文では，並列に実行されるブロック構造を持つプログラムの実行を解
 析することを目的とした可逆実行環境を示す．並列プログラムを抽象
 機械のバイトコード列に変換して実行する．順方向の実行時は逆向き実行に必
 要な情報をスタックに保存し，その実行を逆向きに辿る実行環境を実装す
@@ -72,14 +71,10 @@ Furo-cho, Chikusa-ward, Nagoya-city, 464-8601}
 逆向き実行を実現する．
 
 筆者らはバイトコードによる実行環境複数の抽象機械でバイトコードを順方向お
-よび逆方向%
-の２つのモードで% add syuen 210719
-%において
-並行実行する実行環境をPython のmultiprocessing モジュー
+よび逆方向の２つのモードで並行実行する実行環境をPython のmultiprocessing モジュー
 ルによって実現した．
 
-本論文% 210722 syuen
-では，実際的なプログラムの構文要素として，ブロック構造，手続き
+本論文では，実際的なプログラムの構文要素として，ブロック構造，手続き
 呼出し，関数呼出しを含むように拡張した．Hoey らの手法に従って変
 数のスコープを扱うために，各ブロックに名前を付け，参照情報をパスとし
 て表し，局所変数を実現する．本研究で新たに提案する方法として抽象命令
@@ -105,19 +100,16 @@ of variable updates and program counter jumps associated with process
 identifies on stacks in the forward execution. 
 In the backward
 execution, the abstract instructions for forward execution are
-%converted to reverse abstract instructions one-to-one.
 executed in the reversed order with jump and update instructions altered to
 the corresponding instructions.
 
 In our previous work, we presented a runtime for parallel programs with
 flat-fixed structures.  The runtime 
-concurrently %
-executes multiple abstract machines %
-in the forward and backword modes %
+concurrently executes multiple abstract machines 
+in the forward and backword modes 
 using the multiprocessing module of Python.
 
-This paper % 210722 syuen
-extends the runtime for practical language features,
+This paper extends the runtime for practical language features,
 including blocks, procedure-call, and function-call. To deal with the
 scope of variables in blocks, we assign the path information with
 block names following Hoey et.al.  Besides variable paths, the runtime
@@ -144,29 +136,22 @@ Reversible computation, Concurrency, Programming Languages, Reversible runtime-e
 に至る状態遷移系列によって，初期状態における入力から最終状態における出力を
 得る．デバッグなどプログラムの振舞いを解析する場合，計算過程における
 プログラムの状態変化を詳細に追跡する必
-要が生じる．順方向実行では，出力を計算するための情報のみが保持され，出力とし
-て必要のない情報は捨てられる．振舞い解析のためにはプログラムの振舞いに関係する
+要が生じる．順方向実行では，出力を計算するための情報のみが保持され，
+必要のない情報は捨てられる．振舞い解析のためにはプログラムの振舞いに関係する
 履歴をできるだけ残しておくことは有用であり，振舞いの解析のために必要な情報を残す
 ことが望ましい．このため，メモリの状態をすべてダンプしたり，
 必要と思われるログ情報を残すことが行われる．この観点において，逆方向に実
 行できるだけの情報があれば振舞いを特定することが容易となることが知られて
 おり，このアイデアに基づいた可逆プログラミング言語が提案されている
 \cite{DBLP:journals/entcs/Yokoyama10,DBLP:conf/ifl/ThomsenA15}．
-% yuen 0604
-可逆プログラミング言語である
-%
-Janusに
+可逆プログラミング言語であるJanusに
 おいては，条件分岐構文を拡張して条件分岐がどの方向で発生したか逆方向から
 辿ることができ，最終状態からプログラムを逆から実行して初期状態に至る振舞
-いを再現することができる．% deleted syuen 190719
-%可逆計算に基づいて必要十分の情報をプログラミン
-%グ言語に組込むことによって効率的な解析を行なうことができるようになる．
+いを再現することができる．
 
 並列プログラムでは概念的に複数のプログラムブロックが同時に実行される．
 並列プログラムの振舞いは共有変数を介したインターリーブによる並行実行で捉
-えられる．%yuen 0604 このため，
-逆方向の実行のためには，
-%
+えられる．逆方向の実行のためには，
 個々のプログラムブロックの実行履歴に加えて，複数のプ
 ログラムブロックが全体としてどのように実行されたかという情報が必要になる．
 並列プログラムの並行実行では実行順序の組み合わせが膨大になることから，
@@ -182,8 +167,8 @@ Janusに
 ここでは並列プログラムの並行実行処理系が情報を保存することで逆方向の振舞
 いを実現する方法について示す．筆者らは，大域変数のみを持ち，静的な並列ブロッ
 ク構造を持つプログラムに対する実行環境
-を提案した\cite{DBLP:conf/rc/IkedaY20}．個々の抽象機械は%
-順方向と逆方向の２つのモードを持ち，各モードで% added by syuen 210719
+を提案した\cite{DBLP:conf/rc/IkedaY20}．個々の抽象機械は
+順方向と逆方向の２つのモードを持ち，各モードで
 逐次的にバイトコードを実行する．並列ブロックの実行では，個々のブロッ
 クごとに抽象機械を生成して並行実行する．大域的な実行情報として，共有変数
 の更新情報(値スタック)とジャンプによる個々の抽象機械のプログラムカウンタ
@@ -194,14 +179,10 @@ Janusに
 逆方向の計算を実行するためのバイトコードは，順方向のバイトコードを
 逆順に対応したバイトコードに変換することによって得られる．
 
-%本発表 syuen 210719
 本論文では\cite{DBLP:conf/rc/IkedaY20}の並列プログラミング言語を拡張し，
 再帰的な手続き呼出しを導入する．
-%再帰的なブロック構造を許すことによって
-%動的な並列ブロックの逆方向実行を可能にする．% altered by syuen 210719
 並列に実行されるブロックに再帰的なブロック構造を持つプログラムに対する
-逆方向実行を実現する．%%
-実行環境にプログラムの並列構
+逆方向実行を実現する．実行環境にプログラムの並列構
 造を示すテーブルを導入することによって実現する．このメカニズムによって，
 逆方向実行に必要な抽象機械の生成を知ることができる．手続きおよび関数につい
 て実現し，実用的なプログラミング言語の処理系において可逆計算を可能とする
@@ -209,16 +190,14 @@ Janusに
 Multiprocessingモジュールを用いて実現し，バイトコードへの変換器をJavacc
 を用いて実現した．
 
-%本発表
 本論文の構成は以下の通りである．2節において対象とする並列プログラミング
 言語を定義し，3節において抽象機械とバイトコードを示す．4節において実現し
 た実行環境について説明する．5節で関連研究を述べ，6節でまとめを示す．
 
-%3
 \section{並列プログラミング言語}
 
-対象とする並列プログラミング言語はwhileループやif文，手続き呼出しのブ
-ロック，関数呼出しのブロック，および並列ブロックを持つプログラミング言
+対象とする並列プログラミング言語はwhile文，if文，手続き呼出しのブ
+ロック，関数呼出しのブロック，および並列ブロックを持つ命令型プログラミング言
 語である．ソースプログラムを抽象機械命令に変換することで抽象機械によって
 実行する．並列ブロックは\texttt{par}から始まり，各ブロックを$\Vert$の記号で
 区切り，\texttt{rap}で終わる．
@@ -254,11 +233,9 @@ Multiprocessingモジュールを用いて実現し，バイトコードへの�
 
 
 対象言語の定義を\figref{fig:def}に示す．$\blabel{n}, \alabel{n}, \plabel{n}, \flabel{n}, \clabel{n}$はそれぞれの
-ブロック名を示す．それぞれ$n$は整数値を表し，%
-$\blabel{1}$, $\blabel{2}$, $\ldots$のように整数値の部分%が
-は，プログラム中で重複しないように唯一に現れるとする．%
-%重複しないとする．
-$DV$は変数の宣言，$DP$は手続きの宣言，$DF$は関数の宣言，$RV$は% フォント変更 by syuen 210719
+ブロック名を示す．それぞれ$n$は整数値を表し，$\blabel{1}$, $\blabel{2}$, $\ldots$のように整数値の部分は，
+プログラム中で重複しないように唯一に現れるとする．
+$DV$は変数の宣言，$DP$は手続きの宣言，$DF$は関数の宣言，$RV$は
 変数の解放を行うステートメントを示している．あるブロック内で宣言された変
 数はそのブロック内で必ず宣言した順番とは逆の順番で変数の解放を行うステー
 トメントを記述する必要がある．
@@ -277,7 +254,7 @@ $DV$は変数の宣言，$DP$は手続きの宣言，$DF$は関数の宣言，$R
 
 \subsection{プログラム例}
 
-\figref{fig:sample}にプログラム例を示す．ブロックb1内で変数の宣言，手続
+\figref{fig:sample}にプログラム例\cite{DBLP:conf/rc/HoeyU19}を示す．ブロックb1内で変数の宣言，手続
 きの\verb:airline:の宣言を行い，メインの処理として変数の値割り当て，手続き
 \verb:airline:の呼び出しを行い，最後に最初に宣言した変数の解放を行うプログラム
 である．このプログラムは二つのagentが同時に航空
@@ -292,9 +269,6 @@ $DV$は変数の宣言，$DP$は手続きの宣言，$DF$は関数の宣言，$R
 を逆に辿り，\verb;seats;の値が不正に更新された部分を探す．この実行を
 逆に辿っていくと10行目もしくは19行目に対応する実行で\verb;seats;の値が-1から0に
 戻される．
-%これによって\verb;seats;が0より大きいという条件判定のもと
-%\verb;seats=seats-1;を実行するはずがseatsの値が既に0になってしまっていて不正に1
-%引いてしてしまっている部分を特定することができる．
 このため，\verb|seats>0|の条件判定が10行目ないし19行目の\verb|seats|の減算に有効に
 なっていないことが特定できる．
 
@@ -367,9 +341,9 @@ $DV$は変数の宣言，$DP$は手続きの宣言，$DF$は関数の宣言，$R
 \subsection{抽象機械の実行モード}
 
 本論文の抽象機械における実行には，順方向モードと逆方向モードの二つのモードが存在する．
-順方向実行モードでは，対象プログラムから変換したバイトコードを入力として実行し，
+順方向モードでは，対象プログラムから変換したバイトコードを入力として実行し，
 逆方向実行に必要な情報を保存した値スタックおよびラベルスタックを出力する．
-逆方向実行モードでは，順方向実行に用いたバイトコードを逆方向モードの実行のために変換した
+逆方向モードでは，順方向実行に用いたバイトコードを逆方向モードの実行のために変換した
 バイトコードと順方向実行時に出力した値スタックおよびラベルスタックを入力として実行する．
 
 %本論文では，抽象機械による順方向実行モードの実行を順方向実行，逆方向実行モードの実行を逆方向実行としている．
@@ -445,23 +419,12 @@ $DV$は変数の宣言，$DP$は手続きの宣言，$DF$は関数の宣言，$R
 load命令などで変数$x$を参照する場合はその時点のパスを内側から検索していき
 最も近いパスと最後に$x$の名前がついている変数名の値を読み出す．
 
-抽象機械では全体の変数テーブルを$\sigma$で表す．$\sigma$は，バスと変数名の
+全体の変数テーブルを$\sigma$で表す．$\sigma$は，バスと変数名の
 対を入力としその変数が持つ値を出力する．テーブルにない場合はエラー値を返すと
 する．$\sigma$に対して以下の操作を定める．
 \begin{itemize}
  \item $lup(\sigma,\delta,x)$:\\
 $\delta$のパスから$x$を参照したときの$x$の値を返す．
-
-%\[
-%  lup(\sigma,\delta,x)=
-% \begin{cases}
-%  \simga(\varepsilon,x) & \mbox{if $\delta=\varepsilon$}\\
-%  \sigma(\delta,x) & \mbox{if $\sigma(\delta,x)\not= err$}\\
-%  \sigma(\delta',x) & \parbox{.7\linewidth}
-%{if $\sigma(\delta,x)=err$ and $\delta=\delta'\cdot m$}
-% \end{cases}
-%\]
-
  \item $upd(\sigma,\delta,x,n)$:\\
 $\delta$のパスから$x$を参照したときの変数の値を$n$に更新する．
 \end{itemize}
@@ -470,16 +433,11 @@ $\delta$のパスから$x$を参照したときの変数の値を$n$に更新す
 %4.1.2
 \subsubsection{並列ブロック}
 
-%%%yuen 0510
-%バイトコードにおいて
-% yuen 0604
 並列ブロックから図\ref{fig:parallelTable}(a)のようなバイトコードを生成する．
-%
 一つの並列ブロックは\bcode{fork}命令から始まり，各ブロックが
 {\sf par 0}，{\sf par 1}で囲まれ，\bcode{merge}命令で終わる．バイトコー
-ドを作成する際に生成する並列テーブルはそれぞれ並列ブロックの開始と終了%
-として%の番地であるこの
-{\sf par 0}と{\sf par 1}の番地
+ドを作成する際に生成する並列テーブルはそれぞれ並列ブロックの開始と終了
+として{\sf par 0}と{\sf par 1}の番地
 を組にして保存している．\bcode{fork}
 の被演算子は並列ブロック名$\alabel{n}$である．ソースプログラムにおける$\alabel{n}$に対する
 並列ブロックテーブルを生成し，$\alabel{n}$に含まれる並列ブロックに対して，子プロセ
@@ -514,7 +472,7 @@ $T(\alabel{n})(|T(\alabel{n})|)=(B_\ell,E_\ell)$のとき，$T(\alabel{n}).last=
 命令の長さが$N$のとき，$T(\alabel{n})$の各エントリーを逆向きにした表を$T(\alabel{n})^{-1}_N$とする．
 $T(\alabel{n})(i)=(B_i,E_i)$のとき，$T(\alabel{n})^{-1}_N(i)=(N+1-E_i,N+1-B_i)$である．
 
-\figref{fig:parallel}に並列プロセスの生成を示す．\bcode{fork}によって並列
+\figref{fig:parallel}に並列プロセスの生成の様子を示す．\bcode{fork}によって並列
 プロセスが生成，起動され，さらに生成されたプロセスから並列プロセスが生成，
 起動されている．それぞれ生成されたプロセスはその実行が終了すると\bcode{merge}で
 生成したプロセスに実行の制御を戻していく．
@@ -530,7 +488,7 @@ $T(\alabel{n})(i)=(B_i,E_i)$のとき，$T(\alabel{n})^{-1}_N(i)=(N+1-E_i,N+1-B_
 \subsubsection{手続き呼出しおよび関数呼出し}
 
 抽象機械において，手続きの振舞いは\bcode{proc}命令から\bcode{p\_return}
-命令までのブロックで記述され，手続きの呼び出しは\bcode{proc}命令の
+命令までのブロックで記述し，手続きの呼び出しは\bcode{proc}命令の
 命令番地にジャンプす
 る\bcode{jmp}命令によって実現している．呼び出しブロック名をパスに追加す
 るためにこの\bcode{jmp}命令の前に\bcode{block}命令を生成するようにしてい
@@ -543,7 +501,7 @@ PCを演算スタックから読み出しその番地にシャンプすること
 動作を実現する．
 
 一方，関数の振舞いは\bcode{func}命令から\bcode{f\_return}命令までのブロッ
-クで記述され，関数からの呼び出した番地へ戻る動作と返り値の扱い以外は手
+クで記述し，関数からの呼び出した番地へ戻る動作と返り値の扱い以外は手
 続きと同様に動作する．関数では返り値を扱う必要があるため
 \bcode{f\_return}命令で呼び出した番地へ帰る前に\bcode{load}命令で演算スタックに
 返り値を積む．この際に積む値は関数の名前自体を変数名とした変数の値とする．
@@ -552,38 +510,26 @@ PCを演算スタックから読み出しその番地にシャンプすること
 によって宣言する．この関数内では関数名自体を局所変数と同様に扱って演算す
 ることができる．
 
-%\subsubsection{抽象機械の順方向出力}
 \subsubsection{抽象機械の順方向モードにおける出力}
 
 %%%yuen 0510 10:30 begin
 抽象機械は，自分が生成した局所変数を\texttt{remove}で解放するときに，プロセスIdとパスと
-ともにその値を値スタックに記録する．この値は逆方向%に
-モードで% 210720 syuen
-実行するときにプロセ
-スIdが起動されたとき，局所変数の初期値となる．このために，\bcode{free}の
+ともにその値を値スタックに記録する．この値は逆方向モードで
+実行するときにプロセスIdが起動されたとき，局所変数の初期値となる．このために，\bcode{free}の
 逆命令として，\bcode{r\_alloc}を用意し，そのプロセスが変数を\bcode{free}
 したときの値を復元する．\bcode{alloc}の逆命令は\bcode{r\_free}とし，
-\bcode{r\_free}は順方向%
-モード% 210720 syuen
-でその変数を$\sigma$から消去するが，値は記録しな
-い．
+\bcode{r\_free}は順方向モードでその変数を$\sigma$から消去するが，値は記録しない．
 %%%yuen 0510 end
 
-%\subsection{逆ほ環境の概要}
-%\subsection{逆方向実行環境の概要}
 \subsection{逆方向モードの実行環境}
 
 %%%yuen 0510 06:58
 
-逆方向%
-モード% syuen 210720
-の抽象命令セットを\tabref{tab:backwardinstruction}に示す．
+逆方向モードの抽象命令セットを\tabref{tab:backwardinstruction}に示す．
 
 \begin{figure}[tb]
 \CaptionType{table}
-%\caption{逆方向の抽象機械命令セット}
 \caption{逆方向モードの抽象機械命令セット}
-%\ecaption{instruction of abstract machine for backward}
 \ecaption{Instructions of abstract machine in the backward execution mode}
 \label{tab:backwardinstruction}
 \begin{center}
@@ -591,37 +537,21 @@ PCを演算スタックから読み出しその番地にシャンプすること
 番号 & 命令 & 被演算子 \\\hline
 1 & \bcode{rjmp} & 0 \\\hline
 2 & \bcode{restore} & 変数番地 \\\hline
-%3 & \bcode{r\_label} & 0 \\\hline
 3 & \bcode{par} & \{0,1\} \\\hline
 4 & \bcode{r\_alloc} & 変数番地 \\\hline
 5 & \bcode{r\_free} & 変数番地 \\\hline
-%7 & \bcode{r\_proc} & pn \\\hline
-%8& \bcode{r\_return} &pn \\\hline
-%9& \bcode{block} & bn \\\hline
-%10& \bcode{end} & bn \\\hline
 6& \bcode{r\_fork} & an \\\hline
 7& \bcode{merge} &an \\\hline
-%13& \bcode{r\_w\_label} & wn \\\hline
-%14& \bcode{r\_w\_end} & wn \\\hline
 8& \bcode{nop} & 0 \\\hline
 \end{tabular}
 \end{center}
 \end{figure}
 
-逆方向%
-モード% syuen 210720
-の実行では，% syuen 210720
-%順方向実行
-のバイトコードの抽象命令を個々に変換し，%た
-%逆方向実行のバイトコードを抽象機械に与え，
+逆方向モードの実行では，順方向モードのバイトコードを個々に変換し，
 順方向実行時にスタックに保存した
-逆向き実行に必要な情報を用いて順方向の実行を逆向きに辿る実行を行う．%
-順方向%
-モードの% added syuen 210720
-バイトコード系列$s$から逆方向%
-モードの% added syuen 210720
-バイトコード系列への変換$i(s)$を
-\figref{fig:rulebyte}に示す．
+逆向き実行に必要な情報を用いて順方向の実行を逆向きに辿る実行を行う．
+順方向モードのバイトコード系列$s$から逆方向
+モードのバイトコード系列への変換$i(s)$を\figref{fig:rulebyte}に示す．
 
 \begin{figure}[tb]
 \setbox0\vbox{
@@ -640,11 +570,7 @@ PCを演算スタックから読み出しその番地にシャンプすること
 
 \hbox{$inv(\mathsf{fork}\ an)=\mathsf{merge}\ an,\ \ \ \ \ inv(\mathsf{merge}\ an)=\mathsf{r\_fork}\ an$}
 
-%\hbox{$inv(\mathsf{block}\ bn)=end\ bn,\ \ \ \ \ \ \ \ \ inv(\mathsf{end}\ bn)=block\ bn$}
-
 \hbox{$inv(\mathsf{proc}\ pn)=\mathsf{rjmp}\ N,\ \ \ inv(\mathsf{func}\ pn)=\mathsf{rjmp}\ N$}
-
-%\hbox{$inv(\mathsf{w\_label}\ wn)=\mathsf{rjmp}\ N,\ \ inv(\mathsf{w\_end}\ wn)=\mathsf{rjmp}\ N$}
 
 \hbox{\|その他の命令cは|$inv(c\ n)=\mathsf{nop}\ 0$\|に変換する．|}
 \hbox{\|ここで|$N$\|は実行バイトコード列の長さ．|}
@@ -656,9 +582,7 @@ PCを演算スタックから読み出しその番地にシャンプすること
 \end{figure}
 
 
-逆方向%
-モード% added syuen 210720
-の実行に必要な情報は，ジャンプ履歴，変数更新履歴そして各変数の最後の値であ
+逆方向モードの実行に必要な情報は，ジャンプ履歴，変数更新履歴そして各変数の最後の値であ
 る．順方向実行時にジャンプ履歴はラベルスタックに保存し変数更新履歴は値ス
 タックに保存する．各変数の最後に関
 しては順方向の\bcode{free}命令で値スタックに書き込み逆方向の
@@ -676,10 +600,10 @@ PCを演算スタックから読み出しその番地にシャンプすること
 \label{fig:jmp}
 \end{figure}
 
-\figref{fig:jmp}はジャンプ履歴の保存と利用法について示している．プロセス
-pの抽象機械が$SM_p$がパス$\pi$でジャンプし\bcode{label}命令を行うと
+\figref{fig:jmp}はジャンプ履歴の保存と利用方法について示している．Idが$p$のプロセス
+を実行する抽象機械$SM_p$がパス$\pi$でジャンプし\bcode{label}命令を行うと
 \figref{fig:jmp}のようにラベルスタックにジャンプしてきたPCの値とそれを行っ
-たプロセス番号が保存される．
+たプロセスIdが保存される．
 
 %%%yuen 0510
 逆方向の実行では\bcode{label}命令から変換した\bcode{rjmp}命令でラベルスタックに積まれた
@@ -689,16 +613,10 @@ Idを持つプロセスがジャンプ履歴を取り出しその命令番地に
 
 %%% yuen 0601 begin
 \figref{fig:whileFlow}にwhile構造の対応を示す．
-%whileループのエントリにある
-%\bcode{w\_label}は繰返しの回数だけラベルスタックにBの最後のジャンプからの
-%記録があるので，
 \bcode{rjmp}によって，Bを逆転したコード$\mathrm{B}^{-1}$を実行するか，whileの
 前に戻るかを決める．
 ループ構造において更新された値およびループで最後に更新された値は
 値スタックに保存される．
-%\bcode{w\_end}は，while条件のターゲットになっているので
-%\bcode{rjmp}でループに戻る．
-%%% yuen 0601 end
 
 \begin{figure}[tb]
 \begin{center}
@@ -721,7 +639,7 @@ Idを持つプロセスがジャンプ履歴を取り出しその命令番地に
 
 \figref{fig:store}に変数更新履歴の保存と利用方法を示す．
 \bcode{store}命令，\bcode{free}命令では更新前の値を命令を
-実行したプロセス番号，パスとともに値スタックに保存する．
+実行したプロセスId，パスとともに値スタックに保存する．
 
 逆方向の実行では\bcode{store}命令から変換した\bcode{restore}命令で値スタッ
 クに積まれた変数の値を取り出しその値を被演算子と現在のパスから参照できる
@@ -829,7 +747,7 @@ $\rho$,$\xi$などのスタック構造は要素の列で表し，末尾をス�
 \subsubsection{順方向モードの振舞い定義}
 
 %%%yuen 0510 begin
-プロセスIdが$p$ である抽象機械の%
+プロセスIdが$p$のブロックを実行する抽象機械の%
 順方向モードにおける%
 バイトコード$(b,o)$の振舞い
 $\xrightarrow{b,o}_{p}$を以下に示す．
@@ -870,11 +788,6 @@ $(P,P',w\cdot n'\cdot n,\delta,\chi,\rho,\xi,\sigma)\xrightarrow{(\mathsf{op},m)
 $(P,P',w,\delta,\chi,\rho,\xi,\sigma)\xrightarrow{(\mathsf{label},N)}_p$\newline
 \qquad$(P+1,P,w,\delta,\chi,\rho,\xi\cdot(p,P'),\sigma)$\newline
 \bcode{label}はラベルスタックに飛び元の番地をプッシュする．
-%\item \bcode{par}:\\
-%$(B,0,w,\rho,\xi,\sigma)\xrightarrow{(\mathsf{par},0)}_{p\cdot i}(B+1,B,w,\rho,\xi,\sigma)$\newline
-%$(E-1,P',w,\rho,\xi,\sigma)\xrightarrow{(\mathsf{par},1)}_{p\cdot i}(E,E-1,w,\rho,\xi,\sigma)$\newline
-%ここで$(B,E)=T(p)(i)$．
-%\bcode{par}は親プロセス$p$の$\chi$の名前を持つ並列ブロックテーブルの開始番地から\bcode{par}\ 0を実行し，終了番地において\bcode{par}\ 1を実行する．
 \item \bcode{par}:\\
 $(B_i,0,w,\delta,\bot,\rho,\xi,\sigma)\xrightarrow{(\mathsf{par},0)}_{p\cdot i}$\\
 \hspace*{.25\linewidth} $(B_i+1,B_i,w,\delta,\bot,\rho,\xi,\sigma)$\newline
@@ -915,15 +828,6 @@ $(P,P',w,\delta,\bot,\rho,\xi,\sigma)\xrightarrow{(\mathsf{fork},\alabel{n})}_p$
 \bcode{fork} $\alabel{n}$は並列ブロックテーブル$T(\alabel{n})$から$|T(\alabel{n})|$個の
 抽象機械を生成する．プロセス$p\cdot i$として起動される抽象機械に，動的コンテクスト$\delta$と
 開始番地と終了番地の対$(B_i,E_i)=T(\alabel{n})(i)$を引き渡す．
-%$T(\alabel{n})(i)=(B,E)$であるとき，開始命令番地$B$とするバイトコード列を実行する$p\cdot i$をIdとする
-%$|T(\alabel{n})|$個の子プロセスを生成して実行する．
-%\item \bcode{fork}:\\
-%$(P,P',w,\delta,\bot,\rho,\xi,\sigma)\xrightarrow{(\mathsf{fork},an)}_p$\newline
-%\qquad $(P'',P,w,\delta,an,\rho,\xi,\sigma)$\newline
-%ここで，$P''=T(\alabel{n}).last+1$\\
-%\bcode{fork} anは並列ブロックテーブル$T(\alabel{n})$に基づいて並行プロセスを生成する．
-%$T(\alabel{n})(i)=(B,E)$であるとき，開始命令番地$B$とするバイトコード列を実行する$p\cdot i$をIdとする
-%$|T(\alabel{n})|$個の子プロセスを生成して実行する．
 \item \bcode{merge}:\\
 $(P,P',w,\delta,\chi,\rho,an,\sigma)\xrightarrow{(\mathsf{merge},\alabel{n})}_p$\newline
 \qquad $(P+1,P,w,\delta,\bot,\rho,\bot,\sigma)$\newline
@@ -941,16 +845,6 @@ $(P,P',w\cdot a\cdot r,\delta\cdot pn,\chi,\rho,\xi,\sigma)\xrightarrow{(\mathsf
 \qquad $(a,P,w\cdot r,\delta,\chi,\rho,\xi,\sigma)$\newline
 \bcode{f\_return}はパスから$pn$を削除し局所スタックからスタックトップの一
       つ下にある帰り番地をポップしその番地にジャンプする．
-%\item \bcode{w\_label}:\\
-%$(P,P',w,\delta,\chi,\rho,\xi,\sigma)\xrightarrow{(\mathsf{w\_label},wn)}_p$\newline
-%\qquad $(P+1,P,w,\delta\cdot wn,\chi,\rho,\xi\cdot(p,P'),\sigma)$\newline
-%\bcode{w\_label}はwhileループの開始点であり，繰り返し動作の最後からジャンブする先である．パスに$wn$を追加し一つ前のPCをラベルスタックにプッシュする．
-%\item \bcode{w\_end}:\\
-%$(P,P',w,\delta,\chi,\rho,\xi,\sigma)\xrightarrow{(\mathsf{w\_end},wn)}_p$\newline
-%\qquad $(P+1,P,w,\delta',\chi,\rho,\sigma\cdot(p,P'))$\newline
-%ここで，$\delta'=rm(\delta,wn)$\newline
-%\bcode{w\_end}はwhile文のループ条件が成立しなかった場合の飛び先なので，
-%パスからwnを全て削除し，ラベルスタックにwhile文のループ条件である命令番地$P'$を記録する．
 \item \bcode{nop}:\\
 $(P,P',w,\delta,\chi,\rho,\xi,\sigma)\xrightarrow{(\mathsf{nop},0)}_p$\newline
 \qquad $(P+1,P,w,\delta,\chi,\rho,\sigma)$\newline
@@ -967,10 +861,8 @@ $(P,P',w,\delta,\chi,\rho,\xi,\sigma)\xrightarrow{(\mathsf{nop},0)}_p$\newline
 %\subsubsection{逆方向振舞い定義}
 \subsubsection{逆方向モードの振舞い定義}
 
-プロセスId $p$ の抽象機械の
-%逆方向のための
-逆方向モードにおける% altered by Syuen 210720
-バイトコード$(b,o)$の振舞い
+プロセスIdが$p$のブロックを実行する抽象機械の
+逆方向モードにおけるバイトコード$(b,o)$の振舞い
 $\brightarrow{b,o}_{p}$を以下に示す．
 
 \begin{list}%
@@ -986,11 +878,6 @@ $(P,P',w,\delta,\chi,\rho\cdot(p,\delta',n),\xi,\sigma)\brightarrow{(\mathsf{res
 \qquad$(P+1,P,w,\delta',\chi,\rho,\xi,upd(\sigma,\delta',x,n))$\newline
 \bcode{restore}は値スタックから参照パスと値をポップしその値を共有変数スタックの変数番地に格納し，
 抽象機械の参照パスを更新する．
-%\item \bcode{r\_label}:\\
-%$(P,P',w,\delta,\chi,\rho,\xi,\sigma)\brightarrow{(\mathsf{r\_label})}_p$
-%\newline
-%$(P+1,P,w,\delta,\chi,\rho,\xi,\sigma)$\newline
-%\bcode{r\_label}は\bcode{rjmp}のターゲットとなる．
 \item \bcode{par}:\\
 $(B_i,0,w,\delta,\bot,\rho,\xi,\sigma)\brightarrow{(\mathsf{par},0)}_{p\cdot i}$\\
 \hspace*{.25\linewidth}$(B_i+1,B_i,w,\delta,\bot,\rho,\xi,\sigma)$\newline
@@ -998,11 +885,6 @@ $(E_i-1,P',w,\delta,\chi,\rho,\xi,\sigma)\brightarrow{(\mathsf{par},1)}_{p\cdot 
 \hspace*{.25\linewidth}$(E_i,E_i-1,w,\delta,\bot,\rho,\xi,\sigma)$\newline
 \bcode{par}\ 0における並列ブロックのラベル$\alabel{n}$，動的コンテクスト$\delta$と開始番地と
 終了番地の対$(B_i,E_i)$が，親プロセス$p$から\bcode{r\_fork}において受け渡される．
-%\item \bcode{par}:\\
-%$(B,0,w,\rho,\xi,\sigma)\brightarrow{(\mathsf{par},0)}_{p\cdot i}(B+1,B,w,\rho,\xi,\sigma)$\newline
-%$(E-1,P',w,\rho,\xi,\sigma)\brightarrow{(\mathsf{par},1)}_{p\cdot i}(E,E-1,w,\rho,\xi,\sigma)$\newline
-%ここで$T(p)(i)=(B',E')$に対して$(B,E)=(N+1-B',N+1-E')$ $r\_fork$によって起動される．
-%\bcode{par}は親プロセス$p$の$\chi$の名前を持つ並列ブロックテーブルの開始番地から\bcode{par}\ 0を実行し，終了番地において\bcode{par}\ 1を実行する．
 %%%yuen 0510 begin
 \item \bcode{r\_alloc}:\\\relax
 $(P,P',w,\delta,\chi,\rho\cdot(p,\delta',n),\xi,\sigma)\brightarrow{(\mathsf{r\_alloc},x)}_p$\newline
@@ -1013,22 +895,6 @@ $(P,P',w,\delta,\chi,\rho\cdot(p,\delta',n),\xi,\sigma)\brightarrow{(\mathsf{r\_
 $(P,P',w,\delta,\chi,\rho,\xi,\sigma)\brightarrow{(\mathsf{free},x)}_p$\newline
 \qquad $(P+1,P,w,\delta,\chi,\rho,\xi,\sigma-(\delta,x))$\newline
 \bcode{r\_free}は変数領域の解放を行う．($\rho$への書き込みは行わない．)
-%\item \bcode{r\_proc}:\\
-%$(P,P',w,\delta,\chi,\rho,\xi,\sigma)\brightarrow{(\mathsf{r\_proc},pn)}_p$\newline
-%\qquad $(P+1,P,w,\delta\cdot pn,\chi,\rho,\xi,\sigma)$\newline
-%手続きの始まりを表す．パスにpnを追加する．
-%\item \bcode{r\_return}:\\
-%$(P,P',w,\delta\cdot pn,\chi,\rho,\xi,\sigma)\brightarrow{(\mathsf{r\_return},pn)}_p$\newline
-%\qquad $(P+1,P,w,\delta\cdot pn,\chi,\rho,\xi,\sigma)$\newline
-%手続きの終了を表す．パスからpnを削除する．
-%\item \bcode{block}:\\
-%$(P,P',w,\delta,\chi,\rho,\xi,\sigma)\brightarrow{(\mathsf{block},bn)}_p$\newline
-%\qquad $(P+1,P,w,\delta\cdot bn,\chi,\rho,\xi,\sigma)$\newline
-%\bcode{block}はパスにbnを追加する．
-%\item \bcode{end}:\\
-%$(P,P',w,\delta\cdot bn,\chi,\rho,\xi,\sigma)\brightarrow{(\mathsf{end},bn)}_p$\newline
-%\qquad $(P+1,P,w,\delta,\chi,\rho,\xi,\sigma)$\newline
-%endはパスからbnを削除する．
 \item \bcode{r\_fork}:\\
 $(P,P',w,\delta,\bot,\rho,\bot,\sigma)\brightarrow{(\mathsf{fork},\alabel{n})}_p$\newline
 \qquad $(P'',P,w,\delta,\alabel{n},\rho,\xi,\sigma)$\newline
@@ -1037,22 +903,10 @@ $(P,P',w,\delta,\bot,\rho,\bot,\sigma)\brightarrow{(\mathsf{fork},\alabel{n})}_p
 子プロセスを生成する．このとき，プロセス$p\cdot i$として起動する抽象機械に
 動的コンテクスト$\delta$と開始番地と終了番地の対$(B_i,E_i)=T(\alabel)^{-1}_N(i)$を
 引き渡す．
-%\item \bcode{r\_fork}:\\
-%$(P,P',w,\delta,\bot,\rho,\bot,\sigma)\brightarrow{(\mathsf{fork},\alabel{n})}_p$\newline
-%\qquad $(P'',P,w,\delta,\alabel{n},\rho,\xi,\sigma)$\newline
-%ここで，$P''=T(\alabel{n})^{-1}_N.last+1$\\
-%\bcode{r\_fork} $\alabel{n}$は並列ブロックテーブル$T(\alabel{n})$を逆方向のために変換した
-%$T(\alabel{n})^{-1}_N$に基づいて子プロセスを生成する．ここで，$T(\alabel{n})^{-1}_N$は以下のように
-%得られる．
-%$T(\alabel{n})(i)=(B,E)$であるとき$T(\alabel{n})^{-1}_N(i)=(N+1-E,N+1-B)$.
-%$T(\alabel{n})^{-1}_N$は$\alabel{n}$に属するプログラムブロックの開始命令番地と終了命令番地を入れかえて
-%得られる並行ブロックテーブルである．
 \item \bcode{merge}:\\
 $(P,P',w,\delta,\chi,\rho,an,\sigma)\brightarrow{(\mathsf{merge},an)}_p$\newline
 \qquad $(P+1,P,w,\delta,\bot,\rho,an,\sigma)$\newline
 \bcode{merge}命令は子プロセス$p\cdot i$のPCがすべて$T(\alabel{n})^{-1}_N(i)=(B_i,E_i)$の$E_i$となったときに実行される．
-%\item \bcode{r\_w\_label}:
-%\item \bcode{r\_w\_end}:
 \item \bcode{nop}:\\
 $(P,P',w,\delta,\chi,\rho,\xi,\sigma)\brightarrow{(\mathsf{nop},0)}_p$\newline
 \qquad $(P+1,P,w,\delta,\chi,\rho,\sigma)$\newline
@@ -1165,27 +1019,19 @@ $(P,P',w,\delta,\chi,\rho,\xi,\sigma)\brightarrow{(\mathsf{nop},0)}_p$\newline
 \label{fig:backward}
 \end{figure}
 
-\figref{fig:sample}を順方向%
-モードにおける% syuen 210720
-%実行の
+\figref{fig:sample}を順方向モードにおける
 バイトコードに変換すると\figref{fig:bytecode}になる．
 左端の数字はPC（プログラムカウンタ）を表し（命令，被演算子）というように抽象機械命令が表示されている．
 
 \figref{fig:bytecode}の抽象機械命令を一対一で変換し順序を反転させたものが\figref{fig:backward}の
-逆方向%
-モードにおける% syuen 210720
-%実行の
-バイトコードである．これを用いて順方向実行の実行を逆に辿る実行を行う．
+逆方向モードにおけるバイトコードである．これを用いて順方向実行の実行を逆に辿る実行を行う．
 
 \subsection{プログラム例}
 
 \figref{fig:bytecode}は\figref{fig:sample}を順方向%
-モードにおける% syuen 210720
-%実行の
-バイトコードに変
+モードにおけるバイトコードに変
 換したものであり，\figref{fig:backward}は\figref{fig:bytecode}を命令を一
-対一で置換し順番を反転させた逆方向%
-モード% syuen 210720
+対一で置換し順番を反転させた逆方向モード
 実行のバイトコードである．
 \figref{fig:bytecode}のPC=17からPC=20の実行とPC=45からPC=48の実行がそれ
 ぞれ\figref{fig:sample}の9行目，18行目に対応している．この部分が\texttt{seats=1}
@@ -1194,13 +1040,9 @@ $(P,P',w,\delta,\chi,\rho,\xi,\sigma)\brightarrow{(\mathsf{nop},0)}_p$\newline
 
 \figref{fig:backward}のバイトコード列がこの実行を逆方向に辿ることを示す．
 ラベルスタック，値スタックを使って逆方向実行を進めていくと順方向%
-モードにおける% syuen 210720
-%実行の
-バイトコードの
+モードにおけるバイトコードの
 PC=26（\bcode{store}命令）を変換したPC=55の\bcode{restore}命令もしくは順方向%
-モードにおける%
-%実行の
-バイトコードのPC=54（\bcode{store}命令）を変換したPC=27の\bcode{restore}命令において\texttt{seats}の値
+モードにおけるバイトコードのPC=54（\bcode{store}命令）を変換したPC=27の\bcode{restore}命令において\texttt{seats}の値
 が-1から0に戻される．これによって\texttt{seats}が0より大きいという条件判定で
 \texttt{seats=seats-1}の処理をしたにもかかわらず\texttt{seats}の値がすでに0になってしまっ
 ていて不正に1引いてしまった部分がどこであるかを特定することができる．
@@ -1329,15 +1171,11 @@ multiprocessingモジュールのprocess関数を用いて生成する．この�
 
 
 このプログラムを変換器に与えることで
-順方向%
-モード%実行　syuen 210720
-のバイトコードを生成する．
+順方向モードのバイトコードを生成する．
 \figref{fig:forwardfact}が生成した順方向%
-モード% syuen 210720
-実行のバイトコードである．このバ
+モード実行のバイトコードである．このバ
 イトコードを抽象機械に与えることで順方向%
-モードで% syuen 210720
-の実行を行う．
+モードでの実行を行う．
 
 \begin{figure}[tb]
 \setbox0\vbox{
@@ -1424,7 +1262,7 @@ multiprocessingモジュールのprocess関数を用いて生成する．この�
 プしたPCの値，右側に\bcode{label}命令を行ったプロセスIDが保存されている．例えば
 一行目の(4 0)はプロセス0がPC=4の命令から\bcode{label}命令にジャンプしてき
 たことを示す．特に条件分岐について条件判定を行わずともどこから分岐したか
-という情報が残されているためラベルスタックを見るだけでどのように分岐した
+という情報が残されているため，ラベルスタックを見るだけでどのように分岐した
 かがわかる．
 
 \begin{figure}[tb]
@@ -1499,18 +1337,12 @@ multiprocessingモジュールのprocess関数を用いて生成する．この�
 \subsection{オーバーヘッド} % new section in revision
 
 本研究の手法では，逆方向実行に必要な情報を値スタック，ラベルスタックに保存する必要があるため，情報保存の必要のない
-%素朴な
-実行に比べて%
-空間的% syuen 210720
-オーバーヘッドが大きくなる．
+実行に比べて空間的オーバーヘッドが大きくなる．
 
-% 特にメモリなどの % deleted syuen 210720
-%空間的なオーバーヘッドに関して，オーバーヘッドが大きくなる例が再帰呼出しを繰り返すプログラムである．
 手続き呼び出しを繰り返して，入れ子構造が深くなるプログラムでは，空間的オーバーヘッドが増大する．
 再帰呼出しが起きるとその手続きないし関数内のブロックを実行していくことになり，
 そのスコープを扱うパスがその分大きくなる．そのため値スタックに必要なメモリがそれだけ多くなってしまう．
 
-% 具体的に表すと，% deleted syuen 210720
 再起呼出しの深さを$m$，その各手続き，関数内のブロックの数をすべて$n$個とし，一つのブロックによるパスの長さを$k$バイト，
 \bcode{store}命令の数回数を$l$回とすると，最も長いパスは$kmn$バイトとなりそれらを保存するために必要なメモリは$klmn$バイトとなる．
 例として，$m=100$，$n=10$，$k=2$，$l=5$と考えると，一回の\bcode{store}命令による情報の保存に$2000$バイトが必要になり合計で
@@ -1519,71 +1351,21 @@ multiprocessingモジュールのprocess関数を用いて生成する．この�
 ラベルスタックについては，
 プログラムのコントロールグラフを考えたときに入力次数が大きくループや再帰などによる繰り返しが多くなるプログラムでは多くのメモリが必要となる．
 
-以上のように本手法では，空間的なオーバーヘッドがかなり大きくなってしまう．%が，
-これはデバッグ情報に%
-%相当する
-必要なすべての% altered syuen 210720
-履歴情報を保存しているため%
-%大きくなるものだ
-増大する% altered syuen 210720
-と想定される．
+以上のように本手法では，空間的なオーバーヘッドがかなり大きくなってしまう．
+これは状態遷移に基づくデバッグに必要なすべての履歴を保存しているためである．
 
-%一方，% deleted syuen 210720
 時間的なオーバーヘッドについては，
-本手法のバイトコードの実行は，
-各命令において% added syuen 210720
-履歴情報保存の必要のないバイトコードの実行と比較したとき履歴情報を保存するためのメモリ書き込みおよび読み込みの時間分のみ多くかかるため%
-%そこまで
+本手法のバイトコードの実行は，各命令において
+履歴情報保存の必要のないバイトコードの実行と比較したとき履歴情報を保存するためのメモリ書き込みおよび読み込みの時間分のみ多くかかるため
 大きなオーバーヘッドは生じないと想定される．
-
 
 \section{関連研究}
 
 Hoeyらは，本発表と同様な並列プログラミング言語を可逆的に並行実行する
-方法を提案している．プログラムソース間の継続関係によって振舞を定義し，
+方法を提案している\cite{Hoey20PHD,DBLP:conf/rc/HoeyU19,DBLP:journals/corr/abs-1808-08651}．
+プログラムソース間の継続関係によって振舞を定義し，
 順方向の継続の際に逆方向実行に必要なアノテーションをプログラムに加える
 ことで逆方向の計算を実現している．
-
-%並列プログラムに対する逆方向実行について，先行研究\cite{HIY18,H20}によっ
-%て提案されている手法について説明する．先行研究\cite{HIY18,H20}によって提
-%案されている手法では，whileループやif文，手続き呼び出しのブロックそして
-%並列ブロックを持つような単純なプログラムを対象としている．この対象プログ
-%ラムに対して逆方向実行に必要な情報を残すための処理を行う．この処理を
-%Annotationと呼び対象プログラムにAnnotationを適用し逆方向実行に必要な情報
-%を残せる形式にしたプログラムをAnnotatedプログラムと呼ぶ．Annotatedプログ
-%ラムを実行することによってこのプログラム自体に逆方向実行に必要な情報が書
-%き込まれる．実行されたAnnotatedプログラムをif文やwhile文，手続き呼び出し
-%そして並列ブロックの構造は保持したままでその他の記述順を反転させることで
-%Invertedプログラムが生成され，これを実行することで対象プログラムの実行を
-%逆方向に辿ることができる．
-
-%\subsection{対象プログラムの定義}
-%
-%\begin{figure}[tb]
-%\setbox0\vbox{
-%\hbox{$P ::= \epsilon\ |\ S |\ P;P |\ P\ par\ P$}
-%\hbox{$S ::= skip | X = E\ pa | if\ In\ B\ then\ P\ else\ Q\ end\ pa|$}
-%\hbox{$\ \ \ \ \ \ \ \ while\ Wn\ B\ do\ P\ end\ pa | $}
-%\hbox{$\ \ \ \ \ \ \ \ begin\ Bn\ BB\ end |\ call\ Cn\ n\ pa|$}
-%\hbox{$\ \ \ \ \ \ \ \ runc\ Cn\ P\ end$}
-%\hbox{$BB\ ::=\ DV\ DP\ P;\ RP\ RV$}
-%\hbox{$E::=X |\ n |\ (E)|\ E\ Op\ E$}
-%\hbox{$B::=T|\ F|\ \lnot B |\ (B)|\ E\ ==\ E |\ E > E|\ B \land B$}
-%\hbox{$DV\ ::= \epsilon |\ var\ X=E\ pa;\ DV$}
-%\hbox{$DP\ ::= \epsilon |\ proc\ Pn\ n\ is\ P\ end\ pa;\ DP$}
-%\hbox{$RV\ ::=\epsilon |\  remove\ X=E\ pa;\ RV$}
-%\hbox{$RP\ ::= \epsilon |\ remove\ Pn\ n\ is\ P\ end\ pa;\ RP$}
-%}
-%\centerline{\fbox{\box0}}
-%\caption{対象プログラムの定義}
-%\ecaption{definition of language}
-%\label{fig:Hdef}
-%\end{figure}
-%
-%
-%逆方向実行を行う対象のプログラムに対する定義を示す．対象とするプログラムはwhileループ，if文，手続き呼び出しのブロックそして並列ブロックを持つようなプログラムであり\figref{fig:Hdef}のように定義する．
-
-%\subsection{Annotatedプログラム}
 
 ここではブロック構造およびステートメントに実行のための名前づけを行う
 アノテーションを生成し順方向に実行し，実行に関する情報をプログラム上に付加
