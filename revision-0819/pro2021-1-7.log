@@ -1,24 +1,24 @@
-This is e-pTeX, Version 3.14159265-p3.8.3-191112-2.6 (utf8.sjis) (TeX Live 2020/W32TeX) (preloaded format=platex 2021.3.30)  19 AUG 2021 18:58
+This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.sjis) (TeX Live 2021/W32TeX) (preloaded format=platex 2021.8.19)  25 AUG 2021 18:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**pro2021-1-7.tex
+**pro2021-1-7
 (./pro2021-1-7.tex
 pLaTeX2e <2020-10-01>+2 (based on LaTeX2e <2020-10-01> patch level 4)
 L3 programming layer <2021-02-18> (./ipsj.cls
 Document Class: ipsj 2018/08/03 v4.0 IPSJ class
-(h:/texlive/2020/texmf-dist/tex/latex/graphics/color.sty
+(e:/texlive/2021/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2020/02/24 v1.2b Standard LaTeX Color (DPC)
 
-(h:/texlive/2020/texmf-dist/tex/latex/graphics-cfg/color.cfg
+(e:/texlive/2021/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: dvips.def on input line 147.
 
-(h:/texlive/2020/texmf-dist/tex/latex/graphics-def/dvips.def
+(e:/texlive/2021/texmf-dist/tex/latex/graphics-def/dvips.def
 File: dvips.def 2017/06/20 v3.1d Graphics/color driver for dvips
 )
-(h:/texlive/2020/texmf-dist/tex/latex/graphics/dvipsnam.def
+(e:/texlive/2021/texmf-dist/tex/latex/graphics/dvipsnam.def
 File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
 ))
 \c@@paper=\count178
@@ -4141,54 +4141,54 @@ me \relax
 \@compare@result=\count198
 )
 (./PROpresentation.sty)
-(h:/texlive/2020/texmf-dist/tex/latex/graphics/graphicx.sty
+(e:/texlive/2021/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
 
-(h:/texlive/2020/texmf-dist/tex/latex/graphics/keyval.sty
+(e:/texlive/2021/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks16
 )
-(h:/texlive/2020/texmf-dist/tex/latex/graphics/graphics.sty
+(e:/texlive/2021/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
 
-(h:/texlive/2020/texmf-dist/tex/latex/graphics/trig.sty
+(e:/texlive/2021/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(h:/texlive/2020/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+(e:/texlive/2021/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: dvipdfmx.def on input line 105.
 
-(h:/texlive/2020/texmf-dist/tex/latex/graphics-def/dvipdfmx.def
-File: dvipdfmx.def 2020/08/26 v5.0h Graphics/color driver for dvipdfmx
+(e:/texlive/2021/texmf-dist/tex/latex/graphics-def/dvipdfmx.def
+File: dvipdfmx.def 2021/03/18 v5.0j Graphics/color driver for dvipdfmx
 ))
 \Gin@req@height=\dimen166
 \Gin@req@width=\dimen167
 )
-(h:/texlive/2020/texmf-dist/tex/latex/base/latexsym.sty
+(e:/texlive/2021/texmf-dist/tex/latex/base/latexsym.sty
 Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
 \symlasy=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
 (Font)                  U/lasy/m/n --> U/lasy/b/n on input line 52.
 )
-(h:/texlive/2020/texmf-dist/tex/latex/amsmath/amsmath.sty
+(e:/texlive/2021/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2020/09/23 v2.17i AMS math features
 \@mathmargin=\skip70
 
 For additional information on amsmath, use the `?' option.
-(h:/texlive/2020/texmf-dist/tex/latex/amsmath/amstext.sty
+(e:/texlive/2021/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
 
-(h:/texlive/2020/texmf-dist/tex/latex/amsmath/amsgen.sty
+(e:/texlive/2021/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks17
 \ex@=\dimen168
 ))
-(h:/texlive/2020/texmf-dist/tex/latex/amsmath/amsbsy.sty
+(e:/texlive/2021/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen169
 )
-(h:/texlive/2020/texmf-dist/tex/latex/amsmath/amsopn.sty
+(e:/texlive/2021/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count199
@@ -4229,7 +4229,7 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 LaTeX Info: Redefining \[ on input line 2923.
 LaTeX Info: Redefining \] on input line 2924.
 )
-(h:/texlive/2020/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+(e:/texlive/2021/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup5
 \symAMSb=\mathgroup6
@@ -4237,10 +4237,10 @@ LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )
-(h:/texlive/2020/texmf-dist/tex/generic/xypic/xy.sty
-(h:/texlive/2020/texmf-dist/tex/generic/xypic/xy.tex Bootstrap'ing: catcodes,
-docmode, (h:/texlive/2020/texmf-dist/tex/generic/xypic/xyrecat.tex)
-(h:/texlive/2020/texmf-dist/tex/generic/xypic/xyidioms.tex)
+(e:/texlive/2021/texmf-dist/tex/generic/xypic/xy.sty
+(e:/texlive/2021/texmf-dist/tex/generic/xypic/xy.tex Bootstrap'ing: catcodes,
+docmode, (e:/texlive/2021/texmf-dist/tex/generic/xypic/xyrecat.tex)
+(e:/texlive/2021/texmf-dist/tex/generic/xypic/xyidioms.tex)
 
  Xy-pic version 3.8.9 <2013/10/06>
  Copyright (c) 1991-2013 by Kristoffer H. Rose <krisrose@tug.org> and others
@@ -4295,21 +4295,21 @@ utility macros; pictures: \xy, positions,
  decorations;
 kernel objects: directionals, circles, text; options; algorithms: directions,
 edges, connections;  Xy-pic loaded)
-(h:/texlive/2020/texmf-dist/tex/generic/iftex/ifpdf.sty
+(e:/texlive/2021/texmf-dist/tex/generic/iftex/ifpdf.sty
 Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
 
-(h:/texlive/2020/texmf-dist/tex/generic/iftex/iftex.sty
+(e:/texlive/2021/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2020/03/06 v1.0d TeX engine tests
 ))
 Package: xy 2013/10/06 Xy-pic version 3.8.9
 
-(h:/texlive/2020/texmf-dist/tex/generic/xypic/xycmtip.tex
+(e:/texlive/2021/texmf-dist/tex/generic/xypic/xycmtip.tex
  Xy-pic option: Computer Modern tip extension v.3.7
-(h:/texlive/2020/texmf-dist/tex/generic/xypic/xytips.tex
+(e:/texlive/2021/texmf-dist/tex/generic/xypic/xytips.tex
  Xy-pic option: More Tips extension v.3.11 loaded) loaded)
-(h:/texlive/2020/texmf-dist/tex/generic/xypic/xyall.tex
+(e:/texlive/2021/texmf-dist/tex/generic/xypic/xyall.tex
  Xy-pic option: All features v.3.8
-(h:/texlive/2020/texmf-dist/tex/generic/xypic/xycurve.tex
+(e:/texlive/2021/texmf-dist/tex/generic/xypic/xycurve.tex
  Xy-pic option: Curve and Spline extension v.3.12 curve,
 \crv@cnt@=\count281
 \crvpts@=\toks26
@@ -4321,17 +4321,17 @@ Package: xy 2013/10/06 Xy-pic version 3.8.9
  circles,
 \L@=\dimen265
  loaded)
-(h:/texlive/2020/texmf-dist/tex/generic/xypic/xyframe.tex
+(e:/texlive/2021/texmf-dist/tex/generic/xypic/xyframe.tex
  Xy-pic option: Frame and Bracket extension v.3.14 loaded)
-(h:/texlive/2020/texmf-dist/tex/generic/xypic/xyline.tex
+(e:/texlive/2021/texmf-dist/tex/generic/xypic/xyline.tex
  Xy-pic option: Line styles extension v.3.10
 \xylinethick@=\dimen266
  loaded)
-(h:/texlive/2020/texmf-dist/tex/generic/xypic/xyrotate.tex
+(e:/texlive/2021/texmf-dist/tex/generic/xypic/xyrotate.tex
  Xy-pic option: Rotate and Scale extension v.3.8 loaded)
-(h:/texlive/2020/texmf-dist/tex/generic/xypic/xycolor.tex
+(e:/texlive/2021/texmf-dist/tex/generic/xypic/xycolor.tex
  Xy-pic option: Colour extension v.3.11 loaded)
-(h:/texlive/2020/texmf-dist/tex/generic/xypic/xymatrix.tex
+(e:/texlive/2021/texmf-dist/tex/generic/xypic/xymatrix.tex
  Xy-pic option: Matrix feature v.3.14
 \Row=\count282
 \Col=\count283
@@ -4341,17 +4341,17 @@ Package: xy 2013/10/06 Xy-pic version 3.8.9
 \qcount@@=\count285
 \matrixsize@=\count286
  loaded)
-(h:/texlive/2020/texmf-dist/tex/generic/xypic/xyarrow.tex
+(e:/texlive/2021/texmf-dist/tex/generic/xypic/xyarrow.tex
  Xy-pic option: Arrow and Path feature v.3.9 path, \ar, loaded)
-(h:/texlive/2020/texmf-dist/tex/generic/xypic/xygraph.tex
+(e:/texlive/2021/texmf-dist/tex/generic/xypic/xygraph.tex
  Xy-pic option: Graph feature v.3.11 loaded) loaded))
-(h:/texlive/2020/texmf-dist/tex/latex/url/url.sty
+(e:/texlive/2021/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 \c@thm=\count287
 
-(h:/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-dvips.def
+(e:/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-dvips.def
 File: l3backend-dvips.def 2021-03-18 L3 backend support: dvips
 \l__pdf_internal_box=\box79
 \g__pdf_backend_object_int=\count288
@@ -4438,37 +4438,13 @@ LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <11.82813> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 132.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <11.82813> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 132.
-
-
-LaTeX Warning: Citation `DBLP:journals/entcs/Yokoyama10' on page 2 undefined on
- input line 146.
-
-
-LaTeX Warning: Citation `DBLP:conf/ifl/ThomsenA15' on page 2 undefined on input
- line 146.
-
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <9.61035> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 146.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 206.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <9.61035> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 146.
-
-LaTeX Warning: Citation `DBLP:journals/corr/abs-1808-08651' on page 2 undefined
- on input line 161.
-
-
-LaTeX Warning: Citation `Hoey20PHD' on page 2 undefined on input line 161.
-
-
-LaTeX Warning: Citation `DBLP:conf/rc/IkedaY20' on page 2 undefined on input li
-ne 170.
-
-
-LaTeX Warning: Citation `DBLP:conf/rc/IkedaY20' on page 2 undefined on input li
-ne 182.
-
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 206.
 LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 2
 26.
-(h:/texlive/2020/texmf-dist/tex/latex/base/omscmr.fd
+ (e:/texlive/2021/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <8.13184> not available
@@ -4480,18 +4456,6 @@ LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <8.13184> not available
  [2]
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <9.61035> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 251.
-
-
-LaTeX Warning: Citation `DBLP:conf/rc/HoeyU19' on page 3 undefined on input lin
-e 257.
-
-
-LaTeX Warning: Citation `DBLP:journals/corr/abs-1808-08651' on page 3 undefined
- on input line 324.
-
-
-LaTeX Warning: Citation `Hoey20PHD' on page 3 undefined on input line 324.
-
 File: ./abstract.eps Graphic file (type eps)
 <./abstract.eps>
 
@@ -4544,18 +4508,6 @@ r/m/n/9.61035 (\OML/cmm/m/it/9.61035 ^^[; x; ^^N; n\OT1/cmr/m/n/9.61035 ))$
 LaTeX Warning: Text page 11 contains only floats.
 
 [11]
-
-LaTeX Warning: Citation `Hoey20PHD' on page 12 undefined on input line 1365.
-
-
-LaTeX Warning: Citation `DBLP:conf/rc/HoeyU19' on page 12 undefined on input li
-ne 1365.
-
-
-LaTeX Warning: Citation `DBLP:journals/corr/abs-1808-08651' on page 12 undefine
-d on input line 1365.
-
-
 Overfull \hbox (8.56392pt too wide) detected at line 1400
  [] 
  []
@@ -4565,84 +4517,48 @@ Overfull \hbox (14.88008pt too wide) in paragraph at lines 1376--1431
  [][][] 
  []
 
-[12]
-
-LaTeX Warning: Citation `DBLP:conf/forte/LienhardtLMS12' on page 13 undefined o
-n input line 1523.
-
-
-LaTeX Warning: Citation `Hoey20PHD' on page 13 undefined on input line 1529.
-
-
-LaTeX Warning: Citation `DBLP:journals/software/AgrawalDS91' on page 13 undefin
-ed on input line 1532.
-
-
-LaTeX Warning: Citation `DBLP:journals/corr/abs-1709-00828' on page 13 undefine
-d on input line 1532.
-
-
-LaTeX Warning: Citation `DBLP:journals/jlp/LaneseNPV18' on page 13 undefined on
- input line 1536.
-
-
-LaTeX Warning: Citation `DBLP:conf/csr/AxelsenGY07' on page 13 undefined on inp
-ut line 1546.
-
-[13]
-
-LaTeX Warning: Citation `GDB' on page 14 undefined on input line 1550.
-
-
-LaTeX Warning: Citation `DBLP:conf/flops/Lanese0PV18' on page 14 undefined on i
-nput line 1553.
-
-
-LaTeX Warning: Citation `DBLP:conf/forte/LanesePV19' on page 14 undefined on in
-put line 1553.
-
-
-LaTeX Warning: Citation `DBLP:conf/rc/Galindo0ST20' on page 14 undefined on inp
-ut line 1554.
-
-
-LaTeX Warning: Citation `UNDODebugger' on page 14 undefined on input line 1556.
-
-
-
-LaTeX Warning: Citation `DBLP:conf/rc/IkedaY20' on page 14 undefined on input l
-ine 1581.
-
-
-LaTeX Warning: Citation `DBLP:journals/corr/abs-1808-08651' on page 14 undefine
-d on input line 1591.
-
-
-LaTeX Warning: Citation `Hoey20PHD' on page 14 undefined on input line 1591.
-
-
-LaTeX Warning: Citation `DBLP:conf/rc/HoeyU19' on page 14 undefined on input li
-ne 1620.
-
-No file pro2021-1-7.bbl.
+[12] [13] (./pro2021-1-7.bbl
+LaTeX Font Info:    Calculating math sizes for size <8.8711> on input line 1.
+LaTeX Font Info:    Kanji font shape `JY1/gt/m/it' undefined
+(Font)              No change on input line 5.
+LaTeX Font Info:    Kanji font shape `JY1/gt/m/it' undefined
+(Font)              No change on input line 10.
+ [14]
+LaTeX Font Info:    Kanji font shape `JY1/gt/m/it' undefined
+(Font)              No change on input line 17.
+LaTeX Font Info:    Kanji font shape `JY1/gt/m/it' undefined
+(Font)              No change on input line 31.
+LaTeX Font Info:    Kanji font shape `JY1/gt/m/it' undefined
+(Font)              No change on input line 37.
+LaTeX Font Info:    Kanji font shape `JY1/gt/m/it' undefined
+(Font)              No change on input line 44.
+LaTeX Font Info:    Kanji font shape `JY1/gt/m/it' undefined
+(Font)              No change on input line 51.
+LaTeX Font Info:    Kanji font shape `JY1/gt/m/it' undefined
+(Font)              No change on input line 57.
+LaTeX Font Info:    Kanji font shape `JY1/gt/m/it' undefined
+(Font)              No change on input line 64.
+LaTeX Font Info:    Kanji font shape `JY1/gt/m/it' undefined
+(Font)              No change on input line 69.
+LaTeX Font Info:    Kanji font shape `JY1/gt/m/it' undefined
+(Font)              No change on input line 78.
+LaTeX Font Info:    Kanji font shape `JY1/gt/m/it' undefined
+(Font)              No change on input line 86.
+LaTeX Font Info:    Kanji font shape `JY1/gt/m/it' undefined
+(Font)              No change on input line 96.
+)
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <11.08887> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 1644.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <11.08887> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 1644.
-[14] [15
-
-] (./pro2021-1-7.aux)
-
-LaTeX Warning: There were undefined references.
-
- ) 
+ [15] (./pro2021-1-7.aux) ) 
 Here is how much of TeX's memory you used:
- 4999 strings out of 479479
- 65716 string characters out of 5874530
- 437873 words of memory out of 5000000
- 22608 multiletter control sequences out of 15000+600000
- 444020 words of font info for 216 fonts, out of 8000000 for 9000
+ 5053 strings out of 479466
+ 66717 string characters out of 5873881
+ 434555 words of memory out of 5000000
+ 22655 multiletter control sequences out of 15000+600000
+ 450438 words of font info for 243 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 68i,16n,74p,362b,583s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 68i,16n,74p,358b,583s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on pro2021-1-7.dvi (15 pages, 122448 bytes).
+Output written on pro2021-1-7.dvi (15 pages, 129316 bytes).
