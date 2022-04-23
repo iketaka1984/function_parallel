@@ -1,0 +1,47 @@
+This is pBibTeX, Version 0.99d-j0.33 (TeX Live 2021)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: new_submit.aux
+The style file: ipsjsort.bst
+Database file #1: pro2106.bib
+You've used 16 entries,
+            2669 wiz_defined-function locations,
+            727 strings with 9000 characters,
+and the built_in function-call counts, 7158 in all, are:
+= -- 643
+> -- 237
+< -- 13
++ -- 102
+- -- 82
+* -- 462
+:= -- 950
+add.period$ -- 16
+call.type$ -- 16
+change.case$ -- 73
+chr.to.int$ -- 0
+cite$ -- 16
+duplicate$ -- 401
+empty$ -- 619
+format.name$ -- 123
+if$ -- 1675
+int.to.chr$ -- 0
+int.to.str$ -- 16
+missing$ -- 13
+newline$ -- 51
+num.names$ -- 32
+pop$ -- 144
+preamble$ -- 1
+purify$ -- 73
+quote$ -- 0
+skip$ -- 365
+stack$ -- 0
+substring$ -- 442
+swap$ -- 114
+text.length$ -- 13
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 64
+warning$ -- 0
+while$ -- 71
+width$ -- 18
+write$ -- 152
+is.kanji.str$ -- 161
